@@ -22,14 +22,13 @@ const NavBar = () => {
 
 
   return (
-    <div className={color ? 'sticky bg-[#161410] top-0 z-50 duration-300 py-1' : 'pt-0 duration-300'}>
+    <div className={color ? 'sticky bg-[#e7e7e7] top-0 z-50 duration-300 py-1' : 'pt-0 duration-300'}>
       <div className="max-w-[1620px] mx-auto 2xl:px-28 xl:px-28 md:px-10 sm:px-2 px-4">
         <div className="w-full top-0 left-0 z-10">
           <div className={`md:flex justify-between items-center ${color ? 'py-3' : 'py-7'}`}>
 
             <Link to="home" smooth={true} offset={-30} duration={600} className=" text-white text-[24px] flex items-center cursor-pointer">
-              <img src={logo} alt="Logo" className="w-[110px] md:w-auto mr-3 ml-5 md:ml-0" />
-              <p>$EGOM</p>
+              <img src={logo} alt="Logo" className="lg:w-[110px] md:w-auto mr-3 ml-5 md:ml-0" />
             </Link>
 
             <div onClick={() => setOpen(!open)} className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden">
