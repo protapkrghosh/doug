@@ -1,5 +1,4 @@
 import logo from "@/assets/douglogo.png"
-import { Button } from "@/components/ui/button";
 import { IoMenu, IoClose } from "react-icons/io5";
 import { useState } from "react";
 import { Link } from "react-scroll";
