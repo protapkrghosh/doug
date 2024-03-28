@@ -22,7 +22,7 @@ const NavBar = () => {
 
 
   return (
-    <div className={color ? 'sticky bg-[#e7e7e7] top-0 z-50 duration-300 py-1' : 'pt-0 duration-300'}>
+    <div className={color ? 'sticky bg-[#eeeded] top-0 z-50 duration-300 py-1' : 'pt-0 duration-300'}>
       <div className="max-w-[1620px] mx-auto 2xl:px-28 xl:px-28 md:px-10 sm:px-2 px-4">
         <div className="w-full top-0 left-0 z-10">
           <div className={`md:flex justify-between items-center ${color ? 'py-3' : 'py-7'}`}>
