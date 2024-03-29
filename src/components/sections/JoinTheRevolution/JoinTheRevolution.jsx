@@ -98,7 +98,7 @@ const JoinTheRevolution = () => {
                 </div>
 
                 <div>
-                  <div className='flex items-center gap-[15px]'>
+                  <div className='flex items-center gap-[10px]'>
                     <div className='w-[30px] h-[30px] bg-[#EEB10E] border-[6px] border-[#8F7F53] rounded-full flex justify-center items-center'>
                     </div>
                     <p className='text-[#111] text-[20px] font-karla font-medium'>Community Crypto Academy</p>
