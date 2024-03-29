@@ -23,8 +23,8 @@ const JoinTheRevolution = () => {
             <div className='relative'>
               <p className='text-[#111] textShadow font-montserrat xl:text-[80px] lg:text-[50px] font-bold xl:leading-[96px] lg:leading-[75px] tracking-[1.6px] mb-[36px]'>JOIN THE REVOLUTION</p>
 
-              {/* large device line  */}
-              <div>
+              {/* -------------------------------------large device line -------------------------------------- */}
+              <div className='hidden lg:block'>
                 <div className='hidden lg:block'>
                   <div className='absolute 2xl:bottom-[266px] xl:bottom-[266px] lg:bottom-[277px] 2xl:left-[20px] xl:left-[20px] lg:left-[20px]'>
                     <img src={largeDevice} alt="" />
@@ -73,6 +73,18 @@ const JoinTheRevolution = () => {
                     </div>
                     <p className='text-[#111] text-[20px] font-karla font-medium'>Community Crypto Academy</p>
                   </div>
+                </div>
+              </div>
+
+              {/*----------------------------------- small device line -------------------------------------------- */}
+              <div className='block lg:hidden'>
+                <div className=''>
+                  <div className='absolute '>
+                    <img src={largeDevice} alt="" />
+                  </div>
+                </div>
+                <div>
+
                 </div>
               </div>
 
