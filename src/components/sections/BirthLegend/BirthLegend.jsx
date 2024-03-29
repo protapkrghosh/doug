@@ -8,7 +8,7 @@ const BirthLegend = () => {
       <Container>
         <h1 className='text-[#111] text-[28px] md:text-[60px] xl:text-[75px] text-center font-montserrat font-bold textShadow mb-16 hidden md:block'>BIRTH OF A LEGEND</h1>
 
-        <h1 className='text-[#111] text-[28px] md:text-[60px] xl:text-[75px] text-center font-montserrat font-bold textShadow mb-16 block md:hidden'>BIRTH OF A LEGEND</h1>
+        <h1 className='text-[#111] text-[28px] md:text-[60px] xl:text-[75px] text-center font-montserrat font-bold textShadowSm mb-16 block md:hidden'>BIRTH OF A LEGEND</h1>
 
         <div className='flex flex-col-reverse lg:flex-row justify-between items-center'>
           <div className='lg:w-1/2'>
