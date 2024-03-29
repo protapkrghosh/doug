@@ -35,15 +35,15 @@ const HowToBuy = () => {
             <div>
               {/* Custom border */}
               <div>
-                <img src={lineImg} alt="Image" className='absolute left-6 top-14 h-[70px]' />
-                <img src={lineImg} alt="Image" className='absolute left-6 top-44 h-[70px]' />
+                <img src={lineImg} alt="Image" className='absolute left-5 2xl:left-6 top-14 h-[70px]' />
+                <img src={lineImg} alt="Image" className='absolute left-5 2xl:left-6 top-44 h-[70px]' />
               </div>
 
               <div>
                 {/* Phantomor Solfare */}
                 <div className='flex'>
                   <div>
-                    <div className='w-14 h-14 bg-[#EEB10E] border-[5px] border-[#8F7F53] rounded-full flex justify-center items-center mr-4'>
+                    <div className='w-12 2xl:w-14 h-12 2xl:h-14 bg-[#EEB10E] border-[5px] border-[#8F7F53] rounded-full flex justify-center items-center mr-4'>
                       <p className='text-[#42526D] text-[26px] font-semibold'>1</p>
                     </div>
                   </div>
@@ -58,7 +58,7 @@ const HowToBuy = () => {
                 {/* Buy Some Solana */}
                 <div className='flex my-8'>
                   <div>
-                    <div className='w-14 h-14 bg-[#EEB10E] border-[5px] border-[#8F7F53] rounded-full flex justify-center items-center mr-4'>
+                    <div className='w-12 2xl:w-14 h-12 2xl:h-14 bg-[#EEB10E] border-[5px] border-[#8F7F53] rounded-full flex justify-center items-center mr-4'>
                       <p className='text-[#42526D] text-[26px] font-semibold'>2</p>
                     </div>
                   </div>
@@ -73,7 +73,7 @@ const HowToBuy = () => {
                 {/* Swap your Solana */}
                 <div className='flex'>
                   <div>
-                    <div className='w-14 h-14 bg-[#EEB10E] border-[5px] border-[#8F7F53] rounded-full flex justify-center items-center mr-4'>
+                    <div className='w-12 2xl:w-14 h-12 2xl:h-14 bg-[#EEB10E] border-[5px] border-[#8F7F53] rounded-full flex justify-center items-center mr-4'>
                       <p className='text-[#42526D] text-[26px] font-semibold'>3</p>
                     </div>
                   </div>
@@ -86,8 +86,8 @@ const HowToBuy = () => {
                 </div>
 
                 {/* Copied text */}
-                <div className='flex justify-center md:justify-start ml-[74px] mt-8'>
-                  <div className="flex justify-center items-center text-[14px] lg:text-[16px] xl:text-[18px] bg-[#EEB10E] py-3 rounded-full w-fit px-5">
+                <div className='flex justify-center md:justify-start ml-[63px] 2xl:ml-[74px] mt-8'>
+                  <div className="flex justify-center items-center text-[14px] lg:text-[16px] 2xl:text-[18px] bg-[#EEB10E] py-3 rounded-full w-fit px-5">
                     <p className="text-[#333131] mr-2 md:mr-5">0x4444c12f49c474b24b090d7322025b4b9961baed</p>
                     <button onClick={() => { setCopied(!copied); copyLink() }}>
                       {
@@ -101,7 +101,7 @@ const HowToBuy = () => {
 
               {/* Custom shape */}
               <div>
-                <img src={shapImg} alt="Image" className='absolute -right-32 -bottom-10' />
+                <img src={shapImg} alt="Image" className='absolute -right-16 2xl:-right-32 -bottom-20 2xl:-bottom-10' />
               </div>
             </div>
           </div>
