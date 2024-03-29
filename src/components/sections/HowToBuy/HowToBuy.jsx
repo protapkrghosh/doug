@@ -28,7 +28,7 @@ const HowToBuy = () => {
   return (
     <div className='pb-[75px] 2xl:pb-10'>
       <Container>
-        <h1 className='text-[#111] text-[28px] md:text-[60px] xl:text-[75px] md:text-center font-montserrat font-bold textShadow mb-6 md:mb-16'>HOW TO BUY</h1>
+        <h1 className='text-[#111] text-[28px] md:text-[60px] xl:text-[80px] md:text-center font-montserrat font-bold textShadow mb-6 md:mb-16'>HOW TO BUY</h1>
 
         <div className='lg:flex justify-between items-center'>
           <div className='lg:w-1/2 relative'>
@@ -110,7 +110,7 @@ const HowToBuy = () => {
 
               {/* Custom shape */}
               <div className='hidden lg:block'>
-                <img src={shapImg} alt="Image" className='w-[40%] xl:w-auto absolute -right-20 xl:-right-16 2xl:-right-32 bottom-14 xl:-bottom-20 2xl:-bottom-10' />
+                <img src={shapImg} alt="Image" className='w-[40%] xl:w-[30%] 2xl:w-auto absolute -right-20 xl:-right-16 2xl:-right-32 bottom-14 xl:bottom-14 2xl:-bottom-10' />
               </div>
             </div>
           </div>
