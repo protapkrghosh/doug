@@ -8,7 +8,7 @@ const JoinTheRevolution = () => {
   return (
     <div className='my-[75px]'>
       <Container>
-        <div className='flex items-center xl:gap-[105px] lg:gap-[80px]'>
+        <div className='flex flex-col-reverse lg:flex-row items-center xl:gap-[105px] lg:gap-[80px]'>
           {/* images section  */}
           <div className='lg:w-1/2'>
             <div>
@@ -25,20 +25,22 @@ const JoinTheRevolution = () => {
 
               {/* large device line  */}
               {/* 1 */}
-              <div className='absolute 2xl:bottom-[266px] xl:bottom-[266px] lg:bottom-[277px] 2xl:left-[20px] xl:left-[20px] lg:left-[20px]'>
-                <img src={largeDevice} alt="" />
-              </div>
-              {/* 2 */}
-              <div className='absolute 2xl:bottom-[190px]  xl:bottom-[190px] lg:bottom-[195px] 2xl:left-[20px] xl:left-[20px] lg:left-[20px]'>
-                <img src={largeDevice} alt="" />
-              </div>
-              {/* 3 */}
-              <div className='absolute 2xl:bottom-[118px] xl:bottom-[118px] lg:bottom-[116px] 2xl:left-[20px] xl:left-[20px] lg:left-[20px]'>
-                <img src={largeDevice} alt="" />
-              </div>
-              {/* 4 */}
-              <div className='absolute 2xl:bottom-[42px] xl:bottom-[42px] lg:bottom-[42px] 2xl:left-[20px] xl:left-[20px] lg:left-[20px]'>
-                <img src={largeDevice} alt="" />
+              <div className='hidden lg:block'>
+                <div className='absolute 2xl:bottom-[266px] xl:bottom-[266px] lg:bottom-[277px] 2xl:left-[20px] xl:left-[20px] lg:left-[20px]'>
+                  <img src={largeDevice} alt="" />
+                </div>
+                {/* 2 */}
+                <div className='absolute 2xl:bottom-[190px]  xl:bottom-[190px] lg:bottom-[195px] 2xl:left-[20px] xl:left-[20px] lg:left-[20px]'>
+                  <img src={largeDevice} alt="" />
+                </div>
+                {/* 3 */}
+                <div className='absolute 2xl:bottom-[118px] xl:bottom-[118px] lg:bottom-[116px] 2xl:left-[20px] xl:left-[20px] lg:left-[20px]'>
+                  <img src={largeDevice} alt="" />
+                </div>
+                {/* 4 */}
+                <div className='absolute 2xl:bottom-[42px] xl:bottom-[42px] lg:bottom-[42px] 2xl:left-[20px] xl:left-[20px] lg:left-[20px]'>
+                  <img src={largeDevice} alt="" />
+                </div>
               </div>
 
               <div>
