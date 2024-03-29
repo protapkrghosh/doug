@@ -8,7 +8,7 @@ const JoinTheRevolution = () => {
   return (
     <div className='my-[75px]'>
       <Container>
-        <div className='flex items-center'>
+        <div className='flex items-center 2xl:gap-[105px]'>
           {/* images section  */}
           <div className='w-1/2'>
             <div>
@@ -20,11 +20,11 @@ const JoinTheRevolution = () => {
 
           {/* contant section  */}
           <div className='w-1/2'>
-            <div>
+            <div className='relative'>
               <p className='text-[#111] textShadow font-montserrat text-[80px] font-bold leading-[96px] tracking-[1.6px] mb-[36px]'>JOIN THE REVOLUTION</p>
-              {/* large device line  */}
 
-              <div>
+              {/* large device line  */}
+              <div className='absolute bottom-[270px]'>
                 <img src={largeDevice} alt="" />
               </div>
 
