@@ -80,7 +80,7 @@ const JoinTheRevolution = () => {
               {/*----------------------------------- small device line -------------------------------------------- */}
               <div className='block lg:hidden'>
                 <div>
-                  <div className='absolute'>
+                  <div className='absolute md:bottom-[29px] md:left-3.5'>
                     <img src={smallDevice} alt="" />
                   </div>
                   <div className='absolute'>
@@ -98,11 +98,32 @@ const JoinTheRevolution = () => {
                 </div>
 
                 <div>
+                  <div className='flex items-center gap-[10px] mb-[15px]'>
+                    <div className='w-[30px] h-[30px] bg-[#EEB10E] border-[6px] border-[#8F7F53] rounded-full flex justify-center items-center'>
+                    </div>
+                    <p className='text-[#111] text-[20px] font-karla font-medium'>Inclusive Airdrops</p>
+                  </div>
+                  <div className='flex items-center gap-[10px] mb-[15px]'>
+                    <div className='w-[30px] h-[30px] bg-[#EEB10E] border-[6px] border-[#8F7F53] rounded-full flex justify-center items-center'>
+                    </div>
+                    <p className='text-[#111] text-[20px] font-karla font-medium'>Exclusive NFTs for Community Members</p>
+                  </div>
+                  <div className='flex items-center gap-[10px] mb-[15px]'>
+                    <div className='w-[30px] h-[30px] bg-[#EEB10E] border-[6px] border-[#8F7F53] rounded-full flex justify-center items-center'>
+                    </div>
+                    <p className='text-[#111] text-[20px] font-karla font-medium'>Community-Driven Initiatives</p>
+                  </div>
+                  <div className='flex items-center gap-[10px] mb-[15px]'>
+                    <div className='w-[30px] h-[30px] bg-[#EEB10E] border-[6px] border-[#8F7F53] rounded-full flex justify-center items-center'>
+                    </div>
+                    <p className='text-[#111] text-[20px] font-karla font-medium'>Community Forums</p>
+                  </div>
                   <div className='flex items-center gap-[10px]'>
                     <div className='w-[30px] h-[30px] bg-[#EEB10E] border-[6px] border-[#8F7F53] rounded-full flex justify-center items-center'>
                     </div>
                     <p className='text-[#111] text-[20px] font-karla font-medium'>Community Crypto Academy</p>
                   </div>
+
                 </div>
               </div>
 
