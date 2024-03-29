@@ -3,6 +3,7 @@ import Container from '../Container/Container';
 import { Button } from '@/components/ui/button';
 import JoinTheRevolutionImg from '@/assets/joinThe/image 390.png'
 import largeDevice from '@/assets/joinThe/Line12.png'
+import smallDevice from '@/assets/joinThe/Line16.png'
 
 const JoinTheRevolution = () => {
   return (
@@ -21,7 +22,7 @@ const JoinTheRevolution = () => {
           {/* contant section  */}
           <div className='lg:w-1/2'>
             <div className='relative'>
-              <p className='text-[#111] textShadow font-montserrat xl:text-[80px] lg:text-[50px] font-bold xl:leading-[96px] lg:leading-[75px] tracking-[1.6px] mb-[36px]'>JOIN THE REVOLUTION</p>
+              <p className='text-[#111] textShadow font-montserrat xl:text-[80px] lg:text-[50px] md:text-[54px] font-bold xl:leading-[96px] lg:leading-[75px] tracking-[1.6px] mb-[36px]'>JOIN THE REVOLUTION</p>
 
               {/* -------------------------------------large device line -------------------------------------- */}
               <div className='hidden lg:block'>
@@ -78,13 +79,30 @@ const JoinTheRevolution = () => {
 
               {/*----------------------------------- small device line -------------------------------------------- */}
               <div className='block lg:hidden'>
-                <div className=''>
-                  <div className='absolute '>
-                    <img src={largeDevice} alt="" />
+                <div>
+                  <div className='absolute'>
+                    <img src={smallDevice} alt="" />
+                  </div>
+                  <div className='absolute'>
+                    <img src={smallDevice} alt="" />
+                  </div>
+                  <div className='absolute'>
+                    <img src={smallDevice} alt="" />
+                  </div>
+                  <div className='absolute'>
+                    <img src={smallDevice} alt="" />
+                  </div>
+                  <div className='absolute'>
+                    <img src={smallDevice} alt="" />
                   </div>
                 </div>
-                <div>
 
+                <div>
+                  <div className='flex items-center gap-[15px]'>
+                    <div className='w-[30px] h-[30px] bg-[#EEB10E] border-[6px] border-[#8F7F53] rounded-full flex justify-center items-center'>
+                    </div>
+                    <p className='text-[#111] text-[20px] font-karla font-medium'>Community Crypto Academy</p>
+                  </div>
                 </div>
               </div>
 
