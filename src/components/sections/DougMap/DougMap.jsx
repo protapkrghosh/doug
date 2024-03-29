@@ -12,9 +12,9 @@ const DougMap = () => {
           <div className='lg:flex justify-between items-center'>
             <div className='lg:w-1/2 text-center'>
               <h1 className='text-[#111] text-[28px] md:text-[60px] xl:text-[80px] md:text-center font-montserrat font-bold textShadow'>$DOUG MAP</h1>
-              <p className='text-[#111] text-[24px] font-normal font-montserrat'>Road Trippin' with Doug</p>
+              <p className='text-[#111] text-[24px] font-medium font-montserrat'>Road Trippin' with Doug</p>
               <img src={dougImg} alt="Image" className='w-[]' />
-              <p className='text-[#111] text-[20px] font-normal font-karla -mt-6'>For more roadmap information and details</p>
+              <p className='text-[#111] text-[20px] font-medium bold font-karla -mt-6'>For more roadmap information and details</p>
               <Button className="text-[20px] text-white font-karla font-normal my-9 px-7">$DOUG WHITEPAPER</Button>
             </div>
 
