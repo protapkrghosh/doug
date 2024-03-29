@@ -28,7 +28,9 @@ const HowToBuy = () => {
   return (
     <div className='pb-[75px] 2xl:pb-10'>
       <Container>
-        <h1 className='text-[#111] text-[28px] md:text-[60px] xl:text-[80px] md:text-center font-montserrat font-bold textShadow mb-6 md:mb-16'>HOW TO BUY</h1>
+        <h1 className='text-[#111] text-[28px] md:text-[60px] xl:text-[80px] md:text-center font-montserrat font-bold textShadow mb-6 md:mb-16 hidden md:block'>HOW TO BUY</h1>
+
+        <h1 className='text-[#111] text-[28px] md:text-[60px] xl:text-[80px] md:text-center font-montserrat font-bold textShadowSm mb-6 md:mb-16 block md:hidden'>HOW TO BUY</h1>
 
         <div className='lg:flex justify-between items-center'>
           <div className='lg:w-1/2 relative'>
