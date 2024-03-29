@@ -13,7 +13,7 @@ const JoinTheRevolution = () => {
           <div className='lg:w-1/2'>
             <div>
               <img src={JoinTheRevolutionImg} alt="" />
-              <p className=' lg:mt-[30px] lg:mb-[30px] text-[#333131] text-[20px] font-semibold leading-[30px]'>Join today. Revolutionize your crypto journey. Buy now</p>
+              <p className='xl:mt-[-15px] lg:mb-[30px] text-[#333131] text-[20px] font-semibold leading-[30px]'>Join today. Revolutionize your crypto journey. Buy now</p>
               <Button className="uppercase px-6">Get some $doug</Button>
             </div>
           </div>
@@ -21,7 +21,7 @@ const JoinTheRevolution = () => {
           {/* contant section  */}
           <div className='lg:w-1/2'>
             <div className='relative'>
-              <p className='text-[#111] textShadow font-montserrat text-[80px] font-bold leading-[96px] tracking-[1.6px] mb-[36px]'>JOIN THE REVOLUTION</p>
+              <p className='text-[#111] textShadow font-montserrat 2xl:text-[80px] font-bold leading-[96px] tracking-[1.6px] mb-[36px]'>JOIN THE REVOLUTION</p>
 
               {/* large device line  */}
               {/* 1 */}
