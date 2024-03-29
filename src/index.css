@@ -4,6 +4,25 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Banner */
+.textShadow {
+  text-shadow: 5px 4px 0px #EEB10E;
+}
+
+.textShadowSm {
+  text-shadow: 2px 2px 0px #EEB10E;
+}
+
+/* Birth legend */
+.legendShadow {
+  text-shadow: 4px 4px 0px #EEB10E;
+}
+
+/* Doug map */
+.bgDropShadow {
+  backdrop-filter: blur(5px);
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
