@@ -26,7 +26,7 @@ const HowToBuy = () => {
   };
 
   return (
-    <div>
+    <div className='pb-[75px] 2xl:pb-10'>
       <Container>
         <h1 className='text-[#111] text-[28px] md:text-[60px] xl:text-[75px] text-center font-montserrat font-bold textShadow mb-16'>HOW TO BUY</h1>
 
@@ -35,8 +35,15 @@ const HowToBuy = () => {
             <div>
               {/* Custom border */}
               <div>
-                <img src={lineImg} alt="Image" className='absolute left-5 2xl:left-6 top-14 h-[70px]' />
-                <img src={lineImg} alt="Image" className='absolute left-5 2xl:left-6 top-44 h-[70px]' />
+                <div className='hidden 2xl:block'>
+                  <img src={lineImg} alt="Image" className='absolute left-5 2xl:left-6 top-14 h-[70px]' />
+                  <img src={lineImg} alt="Image" className='absolute left-5 2xl:left-6 top-44 h-[70px]' />
+                </div>
+
+                <div className='block 2xl:hidden'>
+                  <img src={lineImg} alt="Image" className='absolute left-[17px] top-[50px] w-4 h-[135px]' />
+                  <img src={lineImg} alt="Image" className='absolute left-[17px] top-[229px] w-4 h-[100px]' />
+                </div>
               </div>
 
               <div>
