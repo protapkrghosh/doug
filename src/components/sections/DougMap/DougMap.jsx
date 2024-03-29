@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button';
 const DougMap = () => {
   return (
     <div className=''>
-      <div style={{ backgroundImage: `url(${sectionBg})` }} className='bg-no-repeat bg-contain bg-center'>
+      <div style={{ backgroundImage: `url(${sectionBg})` }} className='bg-no-repeat bg-cover 2xl:bg-contain bg-center'>
         <Container>
           <div className='lg:flex justify-between items-center'>
             <div className='lg:w-1/2 text-center'>
@@ -47,20 +47,20 @@ const DougMap = () => {
                   {/* Phase Two */}
                   <div className='font-karla bg-[#dab455] bg-opacity-85 rounded-[10px] py-8 pl-6 bgDropShadow'>
                     <h4 className='text-[#000] text-[24px] font-semibold uppercase'>Phase 2</h4>
-                    <p className='text-[#000] text-[20px] font-normal uppercase mt-3 mb-1'>GENESIS</p>
+                    <p className='text-[#000] text-[20px] font-normal uppercase mt-3 mb-1'>GROWTH</p>
 
                     <div className='space-y-1'>
                       <div className='flex items-center'>
                         <div className='w-4 h-4 bg-black rounded-full mr-2' />
-                        <p className='text-[18px] text-[#333131] font-normal'>Launch</p>
+                        <p className='text-[18px] text-[#333131] font-normal'>Launch Marketing Campaigns</p>
                       </div>
                       <div className='flex items-center'>
                         <div className='w-4 h-4 bg-black rounded-full mr-2' />
-                        <p className='text-[18px] text-[#333131] font-normal'>Community Onboarding & Airdrop</p>
+                        <p className='text-[18px] text-[#333131] font-normal'>Liquidity Pool Establishment</p>
                       </div>
                       <div className='flex items-center'>
                         <div className='w-4 h-4 bg-black rounded-full mr-2' />
-                        <p className='text-[18px] text-[#333131] font-normal'>Kick-Start Initial Token Burn</p>
+                        <p className='text-[18px] text-[#333131] font-normal'>Strategic Partnerships & Collaborations</p>
                       </div>
                     </div>
                   </div>
@@ -68,20 +68,20 @@ const DougMap = () => {
                   {/* Phase Three */}
                   <div className='font-karla bg-[#dab455] bg-opacity-85 rounded-[10px] py-8 pl-6 bgDropShadow'>
                     <h4 className='text-[#000] text-[24px] font-semibold uppercase'>Phase 3</h4>
-                    <p className='text-[#000] text-[20px] font-normal uppercase mt-3 mb-1'>GENESIS</p>
+                    <p className='text-[#000] text-[20px] font-normal uppercase mt-3 mb-1'>EVOLUTION</p>
 
                     <div className='space-y-1'>
                       <div className='flex items-center'>
                         <div className='w-4 h-4 bg-black rounded-full mr-2' />
-                        <p className='text-[18px] text-[#333131] font-normal'>Launch</p>
+                        <p className='text-[18px] text-[#333131] font-normal'>Community Airdrop</p>
                       </div>
                       <div className='flex items-center'>
                         <div className='w-4 h-4 bg-black rounded-full mr-2' />
-                        <p className='text-[18px] text-[#333131] font-normal'>Community Onboarding & Airdrop</p>
+                        <p className='text-[18px] text-[#333131] font-normal'>Community Engagement & Events</p>
                       </div>
                       <div className='flex items-center'>
                         <div className='w-4 h-4 bg-black rounded-full mr-2' />
-                        <p className='text-[18px] text-[#333131] font-normal'>Kick-Start Initial Token Burn</p>
+                        <p className='text-[18px] text-[#333131] font-normal'>NFT Minting</p>
                       </div>
                     </div>
                   </div>
