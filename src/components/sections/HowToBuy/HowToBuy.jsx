@@ -31,8 +31,14 @@ const HowToBuy = () => {
         <h1 className='text-[#111] text-[28px] md:text-[60px] xl:text-[75px] text-center font-montserrat font-bold textShadow mb-16'>HOW TO BUY</h1>
 
         <div className='lg:flex justify-between items-center'>
-          <div className='lg:w-1/2'>
-            <div className='flex relative'>
+          <div className='lg:w-1/2 relative'>
+            <div>
+              {/* Custom border */}
+              <div>
+                <img src={lineImg} alt="Image" className='absolute left-6 top-14 h-[70px]' />
+                <img src={lineImg} alt="Image" className='absolute left-6 top-44 h-[70px]' />
+              </div>
+
               <div>
                 {/* Phantomor Solfare */}
                 <div className='flex'>
@@ -93,6 +99,7 @@ const HowToBuy = () => {
                 </div>
               </div>
 
+              {/* Custom shape */}
               <div>
                 <img src={shapImg} alt="Image" className='absolute -right-32 -bottom-10' />
               </div>
