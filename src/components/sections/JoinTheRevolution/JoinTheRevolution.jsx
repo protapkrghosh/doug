@@ -14,8 +14,8 @@ const JoinTheRevolution = () => {
           <div className='lg:w-1/2'>
             <div>
               <img className='xl:w-auto lg:w-[95%] md:w-auto' src={JoinTheRevolutionImg} alt="" />
-              <p className='xl:mt-[-15px] lg:mb-[30px] md:mb-[30px] mb-[24px] text-[#333131] md:text-[20px] text-[12px] text-center font-semibold leading-[30px]'>Join today. Revolutionize your crypto journey. Buy now</p>
-              <div className='text-center'>
+              <p className='xl:mt-[-15px] lg:mb-[30px] md:mb-[30px] mb-[24px] text-[#333131] md:text-[20px] text-[12px] font-semibold leading-[30px]'>Join today. Revolutionize your crypto journey. Buy now</p>
+              <div>
                 <Button className="uppercase px-6">Get some $doug</Button>
               </div>
             </div>
