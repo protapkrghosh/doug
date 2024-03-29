@@ -1,6 +1,7 @@
 import Banner from '@/components/sections/Banner/Banner';
 import BirthLegend from '@/components/sections/BirthLegend/BirthLegend';
 import BuyAndSell from '@/components/sections/BuyAndSell/BuyAndSell';
+import DougMap from '@/components/sections/DougMap/DougMap';
 import HowToBuy from '@/components/sections/HowToBuy/HowToBuy';
 import JoinTheRevolution from '@/components/sections/JoinTheRevolution/JoinTheRevolution';
 
@@ -10,6 +11,7 @@ const Home = () => {
       <Banner />
       <BirthLegend />
       <BuyAndSell />
+      <DougMap />
       <HowToBuy />
       <JoinTheRevolution />
     </>
