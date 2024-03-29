@@ -10,7 +10,7 @@ const JoinTheRevolution = () => {
       <Container>
         <div className='flex items-center 2xl:gap-[105px]'>
           {/* images section  */}
-          <div className='w-1/2'>
+          <div className='lg:w-1/2'>
             <div>
               <img src={JoinTheRevolutionImg} alt="" />
               <p className=' lg:mt-[30px] lg:mb-[30px] text-[#333131] text-[20px] font-semibold leading-[30px]'>Join today. Revolutionize your crypto journey. Buy now</p>
@@ -19,12 +19,25 @@ const JoinTheRevolution = () => {
           </div>
 
           {/* contant section  */}
-          <div className='w-1/2'>
+          <div className='lg:w-1/2'>
             <div className='relative'>
               <p className='text-[#111] textShadow font-montserrat text-[80px] font-bold leading-[96px] tracking-[1.6px] mb-[36px]'>JOIN THE REVOLUTION</p>
 
               {/* large device line  */}
-              <div className='absolute bottom-[270px]'>
+              {/* 1 */}
+              <div className='absolute 2xl:bottom-[266px] 2xl:left-[20px]'>
+                <img src={largeDevice} alt="" />
+              </div>
+              {/* 2 */}
+              <div className='absolute 2xl:bottom-[190px] 2xl:left-[20px]'>
+                <img src={largeDevice} alt="" />
+              </div>
+              {/* 3 */}
+              <div className='absolute 2xl:bottom-[118px] 2xl:left-[20px]'>
+                <img src={largeDevice} alt="" />
+              </div>
+              {/* 4 */}
+              <div className='absolute 2xl:bottom-[42px] 2xl:left-[20px]'>
                 <img src={largeDevice} alt="" />
               </div>
 
