@@ -82,16 +82,16 @@ const JoinTheRevolution = () => {
               {/*----------------------------------- small device line -------------------------------------------- */}
               <div className='block lg:hidden'>
                 <div>
-                  <div className='absolute md:bottom-[164px] md:left-3.5'>
+                  <div className='absolute bottom-[164px] left-3.5'>
                     <img src={smallDevice} alt="" />
                   </div>
-                  <div className='absolute md:bottom-[119px] md:left-3.5'>
+                  <div className='absolute bottom-[119px] left-3.5'>
                     <img src={smallDevice} alt="" />
                   </div>
-                  <div className='absolute md:bottom-[74px] md:left-3.5'>
+                  <div className='absolute bottom-[74px] left-3.5'>
                     <img src={smallDevice} alt="" />
                   </div>
-                  <div className='absolute md:bottom-[29px] md:left-3.5'>
+                  <div className='absolute bottom-[29px] left-3.5'>
                     <img src={smallDevice} alt="" />
                   </div>
                 </div>
