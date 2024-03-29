@@ -14,7 +14,7 @@ const Home = () => {
       <BuyAndSell />
       <DougMap />
       <HowToBuy />
-      {/* <JoinTheRevolution /> */}
+      <JoinTheRevolution />
       <Faq />
     </>
   );
