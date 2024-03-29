@@ -28,21 +28,23 @@ const HowToBuy = () => {
   return (
     <div className='pb-[75px] 2xl:pb-10'>
       <Container>
-        <h1 className='text-[#111] text-[28px] md:text-[60px] xl:text-[75px] text-center font-montserrat font-bold textShadow mb-16'>HOW TO BUY</h1>
+        <h1 className='text-[#111] text-[28px] md:text-[60px] xl:text-[75px] md:text-center font-montserrat font-bold textShadow mb-6 md:mb-16'>HOW TO BUY</h1>
 
         <div className='lg:flex justify-between items-center'>
           <div className='lg:w-1/2 relative'>
             <div>
               {/* Custom border */}
               <div>
+                {/* Large device line */}
                 <div className='hidden 2xl:block'>
                   <img src={lineImg} alt="Image" className='absolute left-5 2xl:left-6 top-14 h-[70px]' />
                   <img src={lineImg} alt="Image" className='absolute left-5 2xl:left-6 top-44 h-[70px]' />
                 </div>
 
+                {/* Small & medium device line */}
                 <div className='block 2xl:hidden'>
-                  <img src={lineImg} alt="Image" className='absolute left-[17px] top-[50px] w-4 h-[135px]' />
-                  <img src={lineImg} alt="Image" className='absolute left-[17px] top-[229px] w-4 h-[100px]' />
+                  <img src={lineImg} alt="Image" className='absolute left-[14px] md:left-[17px] top-[43px] md:top-[50px] w-3 lg:w-4 h-[120px] md:h-[110px] lg:h-[135px]' />
+                  <img src={lineImg} alt="Image" className='absolute left-[14px] md:left-[17px] top-[200px] lg:top-[229px] w-3 md:w-4 h-[115px] md:h-[80px] lg:h-[125px] xl:h-[100px]' />
                 </div>
               </div>
 
@@ -50,50 +52,50 @@ const HowToBuy = () => {
                 {/* Phantomor Solfare */}
                 <div className='flex'>
                   <div>
-                    <div className='w-12 2xl:w-14 h-12 2xl:h-14 bg-[#EEB10E] border-[5px] border-[#8F7F53] rounded-full flex justify-center items-center mr-4'>
-                      <p className='text-[#42526D] text-[26px] font-semibold'>1</p>
+                    <div className='w-10 md:w-12 2xl:w-14 h-10 md:h-12 2xl:h-14 bg-[#EEB10E] border-4 md:border-[5px] border-[#8F7F53] rounded-full flex justify-center items-center mr-4'>
+                      <p className='text-[#42526D] md:text-[26px] font-semibold'>1</p>
                     </div>
                   </div>
 
                   <div>
-                    <p className='text-[#111] text-[22px] font-karla font-semibold mb-2'>Download a Solana-compatible wallet like Phantomor Solfare.</p>
+                    <p className='text-[#111] text-[18px] md:text-[22px] font-karla font-semibold mb-2'>Download a Solana-compatible wallet like Phantomor Solfare.</p>
 
-                    <p className='text-[#333131] text-[16px] font-karla font-normal'>Phantom and Solflare are apps for storing Solana tokens.After creating your wallet, please write your recovery phrase on paper and keep it safe.</p>
+                    <p className='text-[#333131] text-[14px] md:text-[16px] font-karla font-normal'>Phantom and Solflare are apps for storing Solana tokens.After creating your wallet, please write your recovery phrase on paper and keep it safe.</p>
                   </div>
                 </div>
 
                 {/* Buy Some Solana */}
                 <div className='flex my-8'>
                   <div>
-                    <div className='w-12 2xl:w-14 h-12 2xl:h-14 bg-[#EEB10E] border-[5px] border-[#8F7F53] rounded-full flex justify-center items-center mr-4'>
-                      <p className='text-[#42526D] text-[26px] font-semibold'>2</p>
+                    <div className='w-10 md:w-12 2xl:w-14 h-10 md:h-12 2xl:h-14 bg-[#EEB10E] border-4 md:border-[5px] border-[#8F7F53] rounded-full flex justify-center items-center mr-4'>
+                      <p className='text-[#42526D] md:text-[26px] font-semibold'>2</p>
                     </div>
                   </div>
 
                   <div>
-                    <p className='text-[#111] text-[22px] font-karla font-semibold mb-2'>Buy Some Solana (SOL).</p>
+                    <p className='text-[#111] text-[18px] md:text-[22px] font-karla font-semibold mb-2'>Buy Some Solana (SOL).</p>
 
-                    <p className='text-[#333131] text-[16px] font-karla font-normal'>You can purchase Solana (SOL) tokens from a cryptocurrency exchange like Binance, Crypto.com, or Coinbase. Next, transfer your SOL tokens to your Solana wallet address.</p>
+                    <p className='text-[#333131] text-[14px] md:text-[16px] font-karla font-normal'>You can purchase Solana (SOL) tokens from a cryptocurrency exchange like Binance, Crypto.com, or Coinbase. Next, transfer your SOL tokens to your Solana wallet address.</p>
                   </div>
                 </div>
 
                 {/* Swap your Solana */}
                 <div className='flex'>
                   <div>
-                    <div className='w-12 2xl:w-14 h-12 2xl:h-14 bg-[#EEB10E] border-[5px] border-[#8F7F53] rounded-full flex justify-center items-center mr-4'>
-                      <p className='text-[#42526D] text-[26px] font-semibold'>3</p>
+                    <div className='w-10 md:w-12 2xl:w-14 h-10 md:h-12 2xl:h-14 bg-[#EEB10E] border-4 md:border-[5px] border-[#8F7F53] rounded-full flex justify-center items-center mr-4'>
+                      <p className='text-[#42526D] md:text-[26px] font-semibold'>3</p>
                     </div>
                   </div>
 
                   <div>
-                    <p className='text-[#111] text-[22px] font-karla font-semibold mb-2'>Swap your Solana (SOL) for Doug ($DOUG)</p>
+                    <p className='text-[#111] text-[18px] md:text-[22px] font-karla font-semibold mb-2'>Swap your Solana (SOL) for Doug ($DOUG)</p>
 
-                    <p className='text-[#333131] text-[16px] font-karla font-normal'>Connect your wallet to a decentralized exchange (DEX) likeJupiter. Input Doug’s ($DOUG) contract address and enter the amount you want to buy. Review the details, confirmthe swap, and enjoy your $DOUG.</p>
+                    <p className='text-[#333131] text-[14px] md:text-[16px] font-karla font-normal'>Connect your wallet to a decentralized exchange (DEX) likeJupiter. Input Doug’s ($DOUG) contract address and enter the amount you want to buy. Review the details, confirmthe swap, and enjoy your $DOUG.</p>
                   </div>
                 </div>
 
                 {/* Copied text */}
-                <div className='flex justify-center md:justify-start ml-[63px] 2xl:ml-[74px] mt-8'>
+                <div className='flex justify-center md:justify-start md:ml-[63px] 2xl:ml-[74px] mt-8'>
                   <div className="flex justify-center items-center text-[14px] lg:text-[16px] 2xl:text-[18px] bg-[#EEB10E] py-3 rounded-full w-fit px-5">
                     <p className="text-[#333131] mr-2 md:mr-5">0x4444c12f49c474b24b090d7322025b4b9961baed</p>
                     <button onClick={() => { setCopied(!copied); copyLink() }}>
@@ -107,14 +109,14 @@ const HowToBuy = () => {
               </div>
 
               {/* Custom shape */}
-              <div>
-                <img src={shapImg} alt="Image" className='absolute -right-16 2xl:-right-32 -bottom-20 2xl:-bottom-10' />
+              <div className='hidden lg:block'>
+                <img src={shapImg} alt="Image" className='w-[40%] xl:w-auto absolute -right-20 xl:-right-16 2xl:-right-32 bottom-14 xl:-bottom-20 2xl:-bottom-10' />
               </div>
             </div>
           </div>
 
-          <div className='lg:w-1/2'>
-            <img src={dougImg} alt="Image" className='w-[95%] ml-16' />
+          <div className='lg:w-1/2 hidden md:block'>
+            <img src={dougImg} alt="Image" className='xl:w-[95%] lg:ml-16 mt-14 lg:mt-0' />
           </div>
         </div>
       </Container>
