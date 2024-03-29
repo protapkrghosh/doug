@@ -13,8 +13,8 @@ const JoinTheRevolution = () => {
           {/* images section  */}
           <div className='lg:w-1/2'>
             <div>
-              <img className='xl:w-auto lg:w-[95%]' src={JoinTheRevolutionImg} alt="" />
-              <p className='xl:mt-[-15px] lg:mb-[30px] text-[#333131] text-[20px] font-semibold leading-[30px]'>Join today. Revolutionize your crypto journey. Buy now</p>
+              <img className='xl:w-auto lg:w-[95%] md:w-auto' src={JoinTheRevolutionImg} alt="" />
+              <p className='xl:mt-[-15px] lg:mb-[30px] md:mb-[30px] text-[#333131] text-[20px] font-semibold leading-[30px]'>Join today. Revolutionize your crypto journey. Buy now</p>
               <Button className="uppercase px-6">Get some $doug</Button>
             </div>
           </div>
@@ -80,19 +80,16 @@ const JoinTheRevolution = () => {
               {/*----------------------------------- small device line -------------------------------------------- */}
               <div className='block lg:hidden'>
                 <div>
+                  <div className='absolute md:bottom-[164px] md:left-3.5'>
+                    <img src={smallDevice} alt="" />
+                  </div>
+                  <div className='absolute md:bottom-[119px] md:left-3.5'>
+                    <img src={smallDevice} alt="" />
+                  </div>
+                  <div className='absolute md:bottom-[74px] md:left-3.5'>
+                    <img src={smallDevice} alt="" />
+                  </div>
                   <div className='absolute md:bottom-[29px] md:left-3.5'>
-                    <img src={smallDevice} alt="" />
-                  </div>
-                  <div className='absolute'>
-                    <img src={smallDevice} alt="" />
-                  </div>
-                  <div className='absolute'>
-                    <img src={smallDevice} alt="" />
-                  </div>
-                  <div className='absolute'>
-                    <img src={smallDevice} alt="" />
-                  </div>
-                  <div className='absolute'>
                     <img src={smallDevice} alt="" />
                   </div>
                 </div>
