@@ -21,7 +21,7 @@ const MoonMisssion = () => {
         </div>
 
         {/* section text content */}
-        <div className='flex float-end'>
+        <div className='flex float-end 2xl:mt-[-100px]'>
           <p className='xl:w-[664px] text-[#333131] text-[20px] font-karla font-medium leading-[30px]'>Doug’s here to make crypto fun, accessible, and profitable for everyone, from the seasoned trader to the curious snewcomer. Get Doug now, or risk being left behind.</p>
         </div>
       </Container>
