@@ -37,7 +37,7 @@ const NavBar = () => {
               }
             </div>
 
-            <ul className={`md:flex md:items-center md:py-3 pt-5 pb-7 md:space-x-5 xl:space-x-8 2xl:space-x-10 space-y-4 md:space-y-0 absolute md:static md:z-auto z-[-1px] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-linear opacity-0 md:opacity-100 rounded-[5px] font-karla ${open ? 'top-[65px] opacity-100 bg-[#cccbcb]' : 'top-[-490px] bg-transparent'}`}>
+            <ul className={`md:flex md:items-center md:py-3 pt-5 pb-7 md:space-x-5 xl:space-x-8 2xl:space-x-10 space-y-4 md:space-y-0 absolute md:static md:z-auto z-[-1px] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-linear opacity-0 md:opacity-100 rounded-[5px] font-karla ${open ? 'top-[72px] opacity-100 bg-[#EEEDED]' : 'top-[-490px] bg-transparent'}`}>
 
               <li>
                 <Link to="home" smooth={true} offset={-30} duration={600} className={`text-[18px] font-semibold cursor-pointer ${activeLink === "home" ? 'text-[#EEB10E]' : 'text-[#111] hover:text-[#EEB10E] duration-200'}`} onClick={() => setActiveLink("home")}>Home</Link>
