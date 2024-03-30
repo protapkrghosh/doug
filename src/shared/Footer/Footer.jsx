@@ -4,6 +4,8 @@ import Container from '@/components/sections/Container/Container';
 import { Button } from '@/components/ui/button';
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import ScrollToTop from 'react-scroll-to-top';
+import arrowUpIcon from '@/assets/footer/arrowUpIcon.svg';
 
 const Footer = () => {
   return (
@@ -38,6 +40,23 @@ const Footer = () => {
           </div>
 
           <p className='xl:w-[81%] 2xl:w-[65%] mx-auto'>Disclaimer: Please be advised that DOUG Memecoin is a cryptocurrency created for entertainment purposes. The value of $DOUG may fluctuate wildly. Please be aware of market volatility. Market shifts can lead to gains or losses. Always do your research before investing. Memes are for entertainment, but investments require serious consideration. Consult financial experts before making any investment decisions. Remember to meme responsibly.</p>
+
+          {/* Scroll Up */}
+          <div className='relative hidden md:block md:mt-10 lg:mt-20 xl:-mt-8'>
+            <ScrollToTop
+              smooth={true}
+              top="1000"
+              style={{
+                // backgroundColor: "#20c99685",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                borderRadius: "50%",
+                padding: "10px",
+              }}
+              component={<p style={{ color: "white" }}><img src={arrowUpIcon} alt="Logo" className="w-4" /></p>}
+            />
+          </div>
         </div>
       </Container>
     </div>
