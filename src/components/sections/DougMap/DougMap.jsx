@@ -86,7 +86,7 @@ const DougMap = () => {
         <div className='text-center mt-6 mb-9'>
           <img src={dougImg} alt="Image" />
           <p className='text-[#111] text-[14px] font-medium bold font-karla -mb-1'>For more roadmap information and details</p>
-          <Button className="text-[20px] text-white font-karla font-normal my-9 px-7">$DOUG WHITEPAPER</Button>
+          <Button className="text-[15px] text-white font-karla font-normal my-9 px-7">$DOUG WHITEPAPER</Button>
         </div>
       </div>
 
