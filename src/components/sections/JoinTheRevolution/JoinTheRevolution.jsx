@@ -13,16 +13,18 @@ const JoinTheRevolution = () => {
           {/* images section  */}
           <div className='lg:w-1/2'>
             <div>
-              <img className='xl:w-auto lg:w-[95%]' src={JoinTheRevolutionImg} alt="" />
-              <p className='xl:mt-[-15px] lg:mb-[30px] text-[#333131] text-[20px] font-semibold leading-[30px]'>Join today. Revolutionize your crypto journey. Buy now</p>
-              <Button className="uppercase px-6">Get some $doug</Button>
+              <img className='xl:w-auto lg:w-[95%] md:w-auto' src={JoinTheRevolutionImg} alt="" />
+              <p className='xl:mt-[-15px] lg:mb-[30px] md:mb-[30px] mb-[24px] text-[#333131] md:text-[20px] text-[12px] font-semibold leading-[30px]'>Join today. Revolutionize your crypto journey. Buy now</p>
+              <div>
+                <Button className="uppercase px-6">Get some $doug</Button>
+              </div>
             </div>
           </div>
 
           {/* contant section  */}
           <div className='lg:w-1/2'>
             <div className='relative'>
-              <p className='text-[#111] textShadow font-montserrat xl:text-[80px] lg:text-[50px] md:text-[54px] font-bold xl:leading-[96px] lg:leading-[75px] tracking-[1.6px] mb-[36px]'>JOIN THE REVOLUTION</p>
+              <p className='text-[#111] textShadow font-montserrat xl:text-[80px] lg:text-[50px] md:text-[54px] text-[26px] font-bold xl:leading-[96px] lg:leading-[75px] tracking-[1.6px] mb-[36px]'>JOIN THE REVOLUTION</p>
 
               {/* -------------------------------------large device line -------------------------------------- */}
               <div className='hidden lg:block'>
@@ -80,19 +82,16 @@ const JoinTheRevolution = () => {
               {/*----------------------------------- small device line -------------------------------------------- */}
               <div className='block lg:hidden'>
                 <div>
-                  <div className='absolute md:bottom-[29px] md:left-3.5'>
+                  <div className='absolute bottom-[164px] left-3.5'>
                     <img src={smallDevice} alt="" />
                   </div>
-                  <div className='absolute'>
+                  <div className='absolute bottom-[119px] left-3.5'>
                     <img src={smallDevice} alt="" />
                   </div>
-                  <div className='absolute'>
+                  <div className='absolute bottom-[74px] left-3.5'>
                     <img src={smallDevice} alt="" />
                   </div>
-                  <div className='absolute'>
-                    <img src={smallDevice} alt="" />
-                  </div>
-                  <div className='absolute'>
+                  <div className='absolute bottom-[29px] left-3.5'>
                     <img src={smallDevice} alt="" />
                   </div>
                 </div>
@@ -101,27 +100,27 @@ const JoinTheRevolution = () => {
                   <div className='flex items-center gap-[10px] mb-[15px]'>
                     <div className='w-[30px] h-[30px] bg-[#EEB10E] border-[6px] border-[#8F7F53] rounded-full flex justify-center items-center'>
                     </div>
-                    <p className='text-[#111] text-[20px] font-karla font-medium'>Inclusive Airdrops</p>
+                    <p className='text-[#111] md:text-[20px] text-[12px] font-karla font-medium'>Inclusive Airdrops</p>
                   </div>
                   <div className='flex items-center gap-[10px] mb-[15px]'>
                     <div className='w-[30px] h-[30px] bg-[#EEB10E] border-[6px] border-[#8F7F53] rounded-full flex justify-center items-center'>
                     </div>
-                    <p className='text-[#111] text-[20px] font-karla font-medium'>Exclusive NFTs for Community Members</p>
+                    <p className='text-[#111] md:text-[20px] text-[12px] font-karla font-medium'>Exclusive NFTs for Community Members</p>
                   </div>
                   <div className='flex items-center gap-[10px] mb-[15px]'>
                     <div className='w-[30px] h-[30px] bg-[#EEB10E] border-[6px] border-[#8F7F53] rounded-full flex justify-center items-center'>
                     </div>
-                    <p className='text-[#111] text-[20px] font-karla font-medium'>Community-Driven Initiatives</p>
+                    <p className='text-[#111] md:text-[20px] text-[12px] font-karla font-medium'>Community-Driven Initiatives</p>
                   </div>
                   <div className='flex items-center gap-[10px] mb-[15px]'>
                     <div className='w-[30px] h-[30px] bg-[#EEB10E] border-[6px] border-[#8F7F53] rounded-full flex justify-center items-center'>
                     </div>
-                    <p className='text-[#111] text-[20px] font-karla font-medium'>Community Forums</p>
+                    <p className='text-[#111] md:text-[20px] text-[12px] font-karla font-medium'>Community Forums</p>
                   </div>
                   <div className='flex items-center gap-[10px]'>
                     <div className='w-[30px] h-[30px] bg-[#EEB10E] border-[6px] border-[#8F7F53] rounded-full flex justify-center items-center'>
                     </div>
-                    <p className='text-[#111] text-[20px] font-karla font-medium'>Community Crypto Academy</p>
+                    <p className='text-[#111] md:text-[20px] text-[12px] font-karla font-medium'>Community Crypto Academy</p>
                   </div>
 
                 </div>
