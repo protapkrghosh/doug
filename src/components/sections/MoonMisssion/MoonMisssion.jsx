@@ -11,8 +11,8 @@ const MoonMisssion = () => {
 
         {/* section title  */}
         <div>
-          <p className='text-[#111] textShadow xl:text-[80px] md:text-[60px] font-bold leading-[96px] tracking-[1.6px] lg:mb-[25px] md:mb-[10px]'>MOON MISSION</p>
-          <p className='text-[#333131] text-[24px] font-karla font-medium leading-[36px]'>To Infinity and Beyond!</p>
+          <p className='text-[#111] textShadow xl:text-[80px] md:text-[60px] text-[28px] font-bold leading-[96px] tracking-[1.6px] lg:mb-[25px] md:mb-[10px] mb-[-15px]'>MOON MISSION</p>
+          <p className='text-[#333131] md:text-[24px] text-[12px] font-karla font-medium leading-[36px]'>To Infinity and Beyond!</p>
           <img className='hidden lg:block 2xl:w-[340px] xl:w-[320px] lg:w-[290px] 2xl:ml-1 xl:ml-4 lg:ml-[26px]' src={moonimageIcon} alt="image" />
         </div>
 
@@ -27,8 +27,8 @@ const MoonMisssion = () => {
         </div>
 
         {/* section text content */}
-        <div className='flex float-end 2xl:mt-[-100px] xl:mt-[-80px] lg:mt-5'>
-          <p className='xl:w-[664px] text-[#333131] text-[20px] font-karla font-medium leading-[30px]'>Doug’s here to make crypto fun, accessible, and profitable for everyone, from the seasoned trader to the curious snewcomer. Get Doug now, or risk being left behind.</p>
+        <div className='flex float-end mx-auto 2xl:mt-[-100px] xl:mt-[-80px] lg:mt-5'>
+          <p className='xl:w-[664px] text-center text-[#333131] md:text-[20px] text-[12px] font-karla font-medium md:leading-[30px]'>Doug’s here to make crypto fun, accessible, and profitable for everyone, from the seasoned trader to the curious snewcomer. Get Doug now, or risk being left behind.</p>
         </div>
       </Container>
     </div>
