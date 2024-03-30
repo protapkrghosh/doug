@@ -4,19 +4,24 @@ import { Button } from '@/components/ui/button';
 import JoinTheRevolutionImg from '@/assets/joinThe/image 390.png'
 import largeDevice from '@/assets/joinThe/Line12.png'
 import smallDevice from '@/assets/joinThe/Line16.png'
+import shapeImg from '@/assets/joinThe/Group.png'
 
 const JoinTheRevolution = () => {
   return (
-    <div className='my-[75px]'>
+    <div className='mb-20 md:my-[75px]'>
       <Container>
         <div className='flex flex-col-reverse lg:flex-row items-center xl:gap-[105px] lg:gap-[80px]'>
           {/* images section  */}
           <div className='lg:w-1/2'>
-            <div>
-              <img className='xl:w-auto lg:w-[95%] md:w-auto' src={JoinTheRevolutionImg} alt="" />
-              <p className='xl:mt-[-15px] lg:mb-[30px] md:mb-[30px] mb-[24px] text-[#333131] md:text-[20px] text-[12px] font-semibold leading-[30px]'>Join today. Revolutionize your crypto journey. Buy now</p>
+            <div className='relative'>
+              <img src={shapeImg} alt="Image" className='md:w-[300px] lg:w-[210px] xl:w-[240px] 2xl:w-auto absolute -left-[90px] xl:-left-[115px] 2xl:-left-[115px] -bottom-14 lg:bottom-0 2xl:-bottom-14 hidden md:block' />
+
               <div>
-                <Button className="uppercase px-6">Get some $doug</Button>
+                <img className='xl:w-auto lg:w-[95%] md:w-auto' src={JoinTheRevolutionImg} alt="" />
+                <p className='xl:mt-[-15px] lg:mb-[30px] md:mb-[30px] mb-[24px] text-[#333131] md:text-[20px] xl:text-[19px] 2xl:text-[20px] text-[12px] text-center font-semibold leading-[30px]'>Join today. Revolutionize your crypto journey. Buy now</p>
+                <div className='flex justify-center'>
+                  <Button className="uppercase px-8 xl:text-[17px] 2xl:text-[20px]">Get some $doug</Button>
+                </div>
               </div>
             </div>
           </div>
@@ -24,7 +29,9 @@ const JoinTheRevolution = () => {
           {/* contant section  */}
           <div className='lg:w-1/2'>
             <div className='relative'>
-              <p className='text-[#111] textShadow font-montserrat xl:text-[80px] lg:text-[50px] md:text-[54px] text-[26px] font-bold xl:leading-[96px] lg:leading-[75px] tracking-[1.6px] mb-[36px]'>JOIN THE REVOLUTION</p>
+              <h1 className='text-[#111] textShadow font-montserrat xl:text-[80px] lg:text-[50px] md:text-[54px] text-[26px] font-bold xl:leading-[96px] lg:leading-[75px] tracking-[1.6px] mb-[36px] hidden md:block'>JOIN THE REVOLUTION</h1>
+
+              <h1 className='text-[#111] textShadowSm font-montserrat xl:text-[80px] lg:text-[50px] md:text-[54px] text-[26px] font-bold xl:leading-[96px] lg:leading-[75px] tracking-[1.6px] mb-[36px] block md:hidden'>JOIN THE REVOLUTION</h1>
 
               {/* -------------------------------------large device line -------------------------------------- */}
               <div className='hidden lg:block'>
@@ -83,16 +90,16 @@ const JoinTheRevolution = () => {
               <div className='block lg:hidden'>
                 <div>
                   <div className='absolute bottom-[164px] left-3.5'>
-                    <img src={smallDevice} alt="" />
+                    <img src={smallDevice} alt="Image" />
                   </div>
                   <div className='absolute bottom-[119px] left-3.5'>
-                    <img src={smallDevice} alt="" />
+                    <img src={smallDevice} alt="Image" />
                   </div>
                   <div className='absolute bottom-[74px] left-3.5'>
-                    <img src={smallDevice} alt="" />
+                    <img src={smallDevice} alt="Image" />
                   </div>
                   <div className='absolute bottom-[29px] left-3.5'>
-                    <img src={smallDevice} alt="" />
+                    <img src={smallDevice} alt="Image" />
                   </div>
                 </div>
 
