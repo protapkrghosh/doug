@@ -1,19 +1,24 @@
 import React from 'react';
 import Container from '../Container/Container';
+import moonimageIcon from '@/assets/moonMisson/Group.png';
+import moonimage from '@/assets/moonMisson/Groups237835.png';
 
 const MoonMisssion = () => {
   return (
     <div>
       <Container>
+        
         {/* section title  */}
-
         <div>
           <p className='text-[#111] textShadow 2xl:text-[80px] font-bold leading-[96px] tracking-[1.6px] mb-[25px]'>MOON MISSION</p>
           <p className='text-[#333131] text-[24px] font-karla font-medium leading-[36px]'>To Infinity and Beyond!</p>
+          <img src={moonimageIcon} alt="image" />
         </div>
 
         {/* section images  */}
-        <div></div>
+        <div>
+          <img src={moonimage} alt="image" />
+        </div>
 
         {/* section text content */}
         <div>
