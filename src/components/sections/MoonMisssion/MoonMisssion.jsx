@@ -5,23 +5,23 @@ import moonimage from '@/assets/moonMisson/Groups237835.png';
 
 const MoonMisssion = () => {
   return (
-    <div>
+    <div className='2xl:pt-[320px] 2xl:mb-[190px]'>
       <Container>
-        
+
         {/* section title  */}
         <div>
           <p className='text-[#111] textShadow 2xl:text-[80px] font-bold leading-[96px] tracking-[1.6px] mb-[25px]'>MOON MISSION</p>
           <p className='text-[#333131] text-[24px] font-karla font-medium leading-[36px]'>To Infinity and Beyond!</p>
-          <img src={moonimageIcon} alt="image" />
+          <img className='2xl:w-[340px]' src={moonimageIcon} alt="image" />
         </div>
 
         {/* section images  */}
-        <div>
+        <div className='2xl:ml-[-20px] 2xl:mt-[-700px]'>
           <img src={moonimage} alt="image" />
         </div>
 
         {/* section text content */}
-        <div>
+        <div className='flex float-end'>
           <p className='xl:w-[664px] text-[#333131] text-[20px] font-karla font-medium leading-[30px]'>Doug’s here to make crypto fun, accessible, and profitable for everyone, from the seasoned trader to the curious snewcomer. Get Doug now, or risk being left behind.</p>
         </div>
       </Container>
