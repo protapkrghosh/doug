@@ -23,6 +23,17 @@
   backdrop-filter: blur(5px);
 }
 
+/* Footer scroll icon */
+.scroll-to-top {
+  width: 50px !important;
+  height: 50px !important;
+  border: 1px solid #EEB10E !important;
+  padding: 10px !important;
+  position: absolute !important;
+  right: 0px !important;
+  bottom: -20px !important;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
