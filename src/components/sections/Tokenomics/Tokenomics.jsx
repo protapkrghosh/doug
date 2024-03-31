@@ -5,13 +5,13 @@ import { FaRegCircle } from "react-icons/fa";
 
 const Tokenomics = () => {
   return (
-    <div className='mb-[150px]'>
+    <div className='xl:mb-[150px]'>
       <Container>
         <div>
 
           {/* title section  */}
           <div>
-            <p className='text-[#111] text-center textShadow font-montserrat text-[80px] font-bold leading-[96px] tracking-[1.6px] mb-[25px]'>TOKENOMICS</p>
+            <p className='text-[#111] text-center textShadow font-montserrat xl:text-[80px] font-bold lg:leading-[96px] tracking-[1.6px] mb-[25px]'>TOKENOMICS</p>
             <p className='w-fit bg-[#EEB10E] mx-auto px-[30px] py-[15px] rounded-full text-[#FFF] font-karla text-[28px] font-medium leading-[42px]'>Max Supply: 777 trillion.</p>
           </div>
 
