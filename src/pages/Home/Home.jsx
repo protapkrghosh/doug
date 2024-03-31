@@ -6,6 +6,7 @@ import Faq from '@/components/sections/Faq/Faq';
 import HowToBuy from '@/components/sections/HowToBuy/HowToBuy';
 import JoinTheRevolution from '@/components/sections/JoinTheRevolution/JoinTheRevolution';
 import MoonMisssion from '@/components/sections/MoonMisssion/MoonMisssion';
+import Tokenomics from '@/components/sections/Tokenomics/Tokenomics';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Banner />
       <BirthLegend />
       <MoonMisssion />
+      <Tokenomics />
       <BuyAndSell />
       <DougMap />
       <HowToBuy />
