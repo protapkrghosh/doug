@@ -25,7 +25,7 @@ const MoonMisssion = () => {
 
             {/* botton posigition  */}
             {/* 1 botton */}
-            <p className='2xl:left-[211px] xl:left-[171px] 2xl:bottom-[50px] xl:bottom-[37px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] xl:py-[15px] lg:py-[5px] rounded-full text-[#FFF] font-karla xl:text-[18px] lg:text-[12px] leading-[27px]'>Pump to the Moon</p>
+            <p className='2xl:left-[211px] xl:left-[171px] lg:left-[142px] 2xl:bottom-[50px] xl:bottom-[37px] lg:bottom-[32px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] xl:py-[15px] lg:py-[5px] rounded-full text-[#FFF] font-karla xl:text-[18px] lg:text-[12px] leading-[27px]'>Pump to the Moon</p>
 
             {/* 2 botton */}
             <p className='2xl:left-[408px] xl:left-[333px] 2xl:bottom-[135px] xl:bottom-[106px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] xl:py-[15px] lg:py-[5px] rounded-full text-[#FFF] font-karla xl:text-[18px] lg:text-[12px] leading-[27px]'>Worldwide Popularity</p>
