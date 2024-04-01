@@ -6,7 +6,7 @@ import moonimageSmall from '@/assets/moonMisson/Group237835.png';
 
 const MoonMisssion = () => {
   return (
-    <div className='2xl:pt-[300px] xl:pt-[200px] lg:pt-[120px] md:pt-[70px] xl:mb-[190px] lg:mb-[190px] md:mb-[170px]'>
+    <div className='2xl:pt-[300px] xl:pt-[200px] lg:pt-[90px] md:pt-[70px] xl:mb-[190px] lg:mb-[190px] md:mb-[170px]'>
       <Container>
 
         <div className='relative'>
@@ -24,26 +24,26 @@ const MoonMisssion = () => {
             </div>
 
             {/* botton posigition  */}
-            {/* 1 botton */}
+            {/* Pump to the Moon */}
             <p className='2xl:left-[211px] xl:left-[171px] lg:left-[142px] 2xl:bottom-[50px] xl:bottom-[37px] lg:bottom-[32px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] xl:py-[15px] lg:py-[5px] rounded-full text-[#FFF] font-karla xl:text-[18px] lg:text-[12px] leading-[27px]'>Pump to the Moon</p>
 
-            {/* 2 botton */}
-            <p className='2xl:left-[408px] xl:left-[333px] 2xl:bottom-[135px] xl:bottom-[106px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] xl:py-[15px] lg:py-[5px] rounded-full text-[#FFF] font-karla xl:text-[18px] lg:text-[12px] leading-[27px]'>Worldwide Popularity</p>
+            {/* Worldwide Popularity */}
+            <p className='2xl:left-[408px] xl:left-[333px] lg:left-[265px] left-[265px] 2xl:bottom-[135px] xl:bottom-[106px] lg:bottom-[82px] bottom-[82px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] xl:py-[15px] lg:py-[5px] rounded-full text-[#FFF] font-karla xl:text-[18px] lg:text-[12px] leading-[27px]'>Worldwide Popularity</p>
 
-            {/* 3 botton */}
-            <p className='2xl:left-[548px] xl:left-[448px] 2xl:bottom-[215px] xl:bottom-[172px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] xl:py-[15px] lg:py-[5px] rounded-full text-[#FFF] font-karla xl:text-[18px] lg:text-[12px] leading-[27px]'>King-Sized Community</p>
+            {/* King-Sized */}
+            <p className='2xl:left-[548px] xl:left-[448px] lg:left-[350px] left-[350px] 2xl:bottom-[215px] xl:bottom-[172px] lg:bottom-[132px] bottom-[132px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] xl:py-[15px] lg:py-[5px] rounded-full text-[#FFF] font-karla xl:text-[18px] lg:text-[12px] leading-[27px]'>King-Sized Community</p>
 
-            {/* 4 botton */}
-            <p className='2xl:left-[700px] xl:left-[573px] 2xl:bottom-[298px] xl:bottom-[239px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] xl:py-[15px] lg:py-[5px] rounded-full text-[#FFF] font-karla xl:text-[18px] lg:text-[12px] leading-[27px]'>$1B Marketcap Milestone</p>
+            {/* Marketcap Milestone */}
+            <p className='2xl:left-[700px] xl:left-[573px] lg:left-[443px] left-[443px] 2xl:bottom-[298px] xl:bottom-[239px] lg:bottom-[182px] bottom-[182px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] xl:py-[15px] lg:py-[5px] rounded-full text-[#FFF] font-karla xl:text-[18px] lg:text-[12px] leading-[27px]'>$1B Marketcap Milestone</p>
 
-            {/* 5 botton */}
-            <p className='2xl:left-[820px] xl:left-[670px] 2xl:bottom-[379px] xl:bottom-[306px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] xl:py-[15px] lg:py-[5px] rounded-full text-[#FFF] font-karla xl:text-[18px] lg:text-[12px] leading-[27px]'>DougCoin Dominance</p>
+            {/* DougCoin Dominance */}
+            <p className='2xl:left-[820px] xl:left-[670px] lg:left-[510px] left-[510px] 2xl:bottom-[379px] xl:bottom-[306px] lg:bottom-[233px] bottom-[235px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] xl:py-[15px] lg:py-[5px] rounded-full text-[#FFF] font-karla xl:text-[18px] lg:text-[12px] leading-[27px]'>DougCoin Dominance</p>
 
-            {/* 6 botton */}
-            <p className='2xl:left-[996px] xl:left-[817px] 2xl:bottom-[459px] xl:bottom-[372px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] xl:py-[15px] lg:py-[5px] rounded-full text-[#FFF] font-karla xl:text-[18px] lg:text-[12px] leading-[27px]'>Meme Coin Takeover</p>
+            {/* Meme Coin Takeover */}
+            <p className='2xl:left-[996px] xl:left-[817px] lg:left-[625px] left-[517px] 2xl:bottom-[459px] xl:bottom-[372px] lg:bottom-[284px] bottom-[372px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] xl:py-[15px] lg:py-[5px] rounded-full text-[#FFF] font-karla xl:text-[18px] lg:text-[12px] leading-[27px]'>Meme Coin Takeover</p>
 
-            {/* 7 botton */}
-            <p className='2xl:left-[1136px] xl:left-[932px] 2xl:bottom-[540px] xl:bottom-[440px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] xl:py-[15px] lg:py-[5px] rounded-full text-[#FFF] font-karla xl:text-[18px] lg:text-[12px] leading-[27px]'>Reign Forever</p>
+            {/* Reign Forever */}
+            <p className='2xl:left-[1136px] xl:left-[932px] lg:left-[713px] left-[932px] 2xl:bottom-[540px] xl:bottom-[440px] lg:bottom-[335px] bottom-[440px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] xl:py-[15px] lg:py-[5px] rounded-full text-[#FFF] font-karla xl:text-[18px] lg:text-[12px] leading-[27px]'>Reign Forever</p>
 
           </div>
 
@@ -53,7 +53,7 @@ const MoonMisssion = () => {
           </div>
 
           {/*  section text content  */}
-          <div className='flex float-end mx-auto 2xl:mt-[-100px] xl:mt-[-80px] lg:mt-5'>
+          <div className='flex float-end mx-auto 2xl:mt-[-100px] xl:mt-[-80px] lg:mt-14'>
             <p className='xl:w-[664px] text-center md:text-start text-[#333131] md:text-[20px] text-[12px] font-karla font-medium md:leading-[30px]'>Doug’s here to make crypto fun, accessible, and profitable for everyone, from the seasoned trader to the curious snewcomer. Get Doug now, or risk being left behind.</p>
           </div>
         </div>
