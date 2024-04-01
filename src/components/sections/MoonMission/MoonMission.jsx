@@ -22,12 +22,12 @@ const MoonMisssion = () => {
 
           <div>
             <div>
-              {/*  section images large device  */}
+              {/* large device section image  */}
               <div className='hidden lg:block 2xl:ml-[-20px] xl:ml-[-20px] 2xl:mt-[-700px] xl:mt-[-550px] lg:mt-[-350px]'>
                 <img src={moonimageLarge} alt="image" />
               </div>
 
-              {/*  section images small device  */}
+              {/*  small device section image */}
               <div className='block lg:hidden 2xl:ml-[-20px] xl:ml-[-20px] 2xl:mt-[-700px] xl:mt-[-550px] lg:mt-[-350px]'>
                 <img src={moonimageSmall} alt="image" className='w-[350px] md:w-[500px]'/>
               </div>
