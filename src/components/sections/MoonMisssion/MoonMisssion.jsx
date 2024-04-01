@@ -6,7 +6,7 @@ import moonimageSmall from '@/assets/moonMisson/Group237835.png';
 
 const MoonMisssion = () => {
   return (
-    <div className='xl:pt-[320px] lg:pt-[120px] md:pt-[70px] xl:mb-[190px] lg:mb-[190px] md:mb-[170px]'>
+    <div className='2xl:pt-[300px] xl:pt-[200px] lg:pt-[120px] md:pt-[70px] xl:mb-[190px] lg:mb-[190px] md:mb-[170px]'>
       <Container>
 
         <div className='relative'>
@@ -54,7 +54,7 @@ const MoonMisssion = () => {
 
           {/*  section text content  */}
           <div className='flex float-end mx-auto 2xl:mt-[-100px] xl:mt-[-80px] lg:mt-5'>
-            <p className='xl:w-[664px] text-center text-[#333131] md:text-[20px] text-[12px] font-karla font-medium md:leading-[30px]'>Doug’s here to make crypto fun, accessible, and profitable for everyone, from the seasoned trader to the curious snewcomer. Get Doug now, or risk being left behind.</p>
+            <p className='xl:w-[664px] text-center md:text-start text-[#333131] md:text-[20px] text-[12px] font-karla font-medium md:leading-[30px]'>Doug’s here to make crypto fun, accessible, and profitable for everyone, from the seasoned trader to the curious snewcomer. Get Doug now, or risk being left behind.</p>
           </div>
         </div>
       </Container>
