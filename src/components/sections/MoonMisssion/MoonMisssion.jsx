@@ -29,31 +29,31 @@ const MoonMisssion = () => {
 
               {/*  section images small device  */}
               <div className='block lg:hidden 2xl:ml-[-20px] xl:ml-[-20px] 2xl:mt-[-700px] xl:mt-[-550px] lg:mt-[-350px]'>
-                <img src={moonimageSmall} alt="image" className='w-[500px]'/>
+                <img src={moonimageSmall} alt="image" className='w-[350px] md:w-[500px]'/>
               </div>
             </div>
 
             {/* botton posigition  */}
             {/* Pump to the Moon */}
-            <p className='2xl:left-[211px] xl:left-[171px] lg:left-[142px] left-[80px] 2xl:bottom-[50px] xl:bottom-[37px] lg:bottom-[32px] bottom-[89px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] md:px-5 xl:py-[15px] lg:py-[5px] md:py-2 rounded-full text-[#FFF] font-karla xl:text-[18px] lg:text-[12px] leading-[27px] rotate-[10deg] lg:rotate-0'>Pump to the Moon</p>
+            <p className='2xl:left-[211px] xl:left-[171px] lg:left-[142px] md:left-[80px] left-[59px] 2xl:bottom-[50px] xl:bottom-[37px] lg:bottom-[32px] md:bottom-[89px] bottom-[59px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] md:px-5 px-2 xl:py-[15px] lg:py-[5px] md:py-2 py-1 rounded-full text-[#FFF] font-karla text-[13px] md:text-[16px] xl:text-[18px] lg:text-[12px] leading-[27px] rotate-[10deg] lg:rotate-0'>Pump to the Moon</p>
 
             {/* Worldwide Popularity */}
-            <p className='2xl:left-[408px] xl:left-[333px] lg:left-[265px] left-[133px] 2xl:bottom-[135px] xl:bottom-[106px] lg:bottom-[82px] bottom-[144px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] md:px-5 xl:py-[15px] lg:py-[5px] md:py-2 rounded-full text-[#FFF] font-karla xl:text-[18px] lg:text-[12px] leading-[27px] rotate-[10deg] lg:rotate-0'>Worldwide Popularity</p>
+            <p className='2xl:left-[408px] xl:left-[333px] lg:left-[265px] left-[93px] 2xl:bottom-[135px] xl:bottom-[106px] lg:bottom-[82px] bottom-[96px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] md:px-5 px-2 xl:py-[15px] lg:py-[5px] md:py-2 py-1 rounded-full text-[#FFF] font-karla text-[13px] md:text-[16px] xl:text-[18px] lg:text-[12px] leading-[27px] rotate-[10deg] lg:rotate-0'>Worldwide Popularity</p>
 
             {/* King-Sized */}
-            <p className='2xl:left-[548px] xl:left-[448px] lg:left-[350px] left-[165px] 2xl:bottom-[215px] xl:bottom-[172px] lg:bottom-[132px] bottom-[202px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] md:px-5 xl:py-[15px] lg:py-[5px] md:py-2 rounded-full text-[#FFF] font-karla xl:text-[18px] lg:text-[12px] leading-[27px] rotate-[10deg] lg:rotate-0'>King-Sized Community</p>
+            <p className='2xl:left-[548px] xl:left-[448px] lg:left-[350px] left-[115px] 2xl:bottom-[215px] xl:bottom-[172px] lg:bottom-[132px] bottom-[138px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] md:px-5 px-2 xl:py-[15px] lg:py-[5px] md:py-2 py-1 rounded-full text-[#FFF] font-karla text-[13px] md:text-[16px] xl:text-[18px] lg:text-[12px] leading-[27px] rotate-[10deg] lg:rotate-0'>King-Sized Community</p>
 
             {/* Marketcap Milestone */}
-            <p className='2xl:left-[700px] xl:left-[573px] lg:left-[443px] left-[208px] 2xl:bottom-[298px] xl:bottom-[239px] lg:bottom-[182px] bottom-[262px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] md:px-5 xl:py-[15px] lg:py-[5px] md:py-2 rounded-full text-[#FFF] font-karla xl:text-[18px] lg:text-[12px] leading-[27px] rotate-[10deg] lg:rotate-0'>$1B Marketcap Milestone</p>
+            <p className='2xl:left-[700px] xl:left-[573px] lg:left-[443px] left-[145px] 2xl:bottom-[298px] xl:bottom-[239px] lg:bottom-[182px] bottom-[179px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] md:px-5 px-2 xl:py-[15px] lg:py-[5px] md:py-2 py-1 rounded-full text-[#FFF] font-karla text-[13px] md:text-[16px] xl:text-[18px] lg:text-[12px] leading-[27px] rotate-[10deg] lg:rotate-0'>$1B Marketcap Milestone</p>
 
             {/* DougCoin Dominance */}
-            <p className='2xl:left-[820px] xl:left-[670px] lg:left-[510px] left-[240px] 2xl:bottom-[379px] xl:bottom-[306px] lg:bottom-[233px] bottom-[323px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] md:px-5 xl:py-[15px] lg:py-[5px] md:py-2 rounded-full text-[#FFF] font-karla xl:text-[18px] lg:text-[12px] leading-[27px] rotate-[10deg] lg:rotate-0'>DougCoin Dominance</p>
+            <p className='2xl:left-[820px] xl:left-[670px] lg:left-[510px] md:left-[240px] left-[169px] 2xl:bottom-[379px] xl:bottom-[306px] lg:bottom-[233px] md:bottom-[200px] bottom-[222px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] md:px-5 px-2 xl:py-[15px] lg:py-[5px] md:py-2 py-1 rounded-full text-[#FFF] font-karla text-[13px] md:text-[16px] xl:text-[18px] lg:text-[12px] leading-[27px] rotate-[10deg] lg:rotate-0'>DougCoin Dominance</p>
 
             {/* Meme Coin Takeover */}
-            <p className='2xl:left-[996px] xl:left-[817px] lg:left-[625px] left-[283px] 2xl:bottom-[459px] xl:bottom-[372px] lg:bottom-[284px] bottom-[380px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] md:px-5 xl:py-[15px] lg:py-[5px] md:py-2 rounded-full text-[#FFF] font-karla xl:text-[18px] lg:text-[12px] leading-[27px] rotate-[10deg] lg:rotate-0'>Meme Coin Takeover</p>
+            <p className='2xl:left-[996px] xl:left-[817px] lg:left-[625px] left-[200px] 2xl:bottom-[459px] xl:bottom-[372px] lg:bottom-[284px] bottom-[263px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] md:px-5 px-2 xl:py-[15px] lg:py-[5px] md:py-2 py-1 rounded-full text-[#FFF] font-karla text-[13px] md:text-[16px] xl:text-[18px] lg:text-[12px] leading-[27px] rotate-[10deg] lg:rotate-0'>Meme Coin Takeover</p>
 
             {/* Reign Forever */}
-            <p className='2xl:left-[1136px] xl:left-[932px] lg:left-[713px] left-[324px] 2xl:bottom-[540px] xl:bottom-[440px] lg:bottom-[335px] bottom-[446px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] md:px-5 xl:py-[15px] lg:py-[5px] md:py-2 rounded-full text-[#FFF] font-karla xl:text-[18px] lg:text-[12px] leading-[27px] rotate-[10deg] lg:rotate-0'>Reign Forever</p>
+            <p className='2xl:left-[1136px] xl:left-[932px] lg:left-[713px] md:left-[254px] left-[228px] 2xl:bottom-[540px] xl:bottom-[440px] lg:bottom-[335px] md:bottom-[446px] bottom-[308px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] md:px-5 px-2 xl:py-[15px] lg:py-[5px] md:py-2 py-1 rounded-full text-[#FFF] font-karla text-[13px] md:text-[16px] xl:text-[18px] lg:text-[12px] leading-[27px] rotate-[10deg] lg:rotate-0'>Reign Forever</p>
 
           </div>
 
