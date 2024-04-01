@@ -25,25 +25,25 @@ const MoonMisssion = () => {
 
             {/* botton posigition  */}
             {/* 1 botton */}
-            <p className='2xl:left-[211px] 2xl:bottom-[50px] absolute w-fit bg-[#EEB10E] px-[20px] py-[15px] rounded-full text-[#FFF] font-karla text-[18px] leading-[27px]'>Pump to the Moon</p>
+            <p className='2xl:left-[211px] xl:left-[171px] 2xl:bottom-[50px] xl:bottom-[37px] absolute w-fit bg-[#EEB10E] px-[20px] py-[15px] rounded-full text-[#FFF] font-karla text-[18px] leading-[27px]'>Pump to the Moon</p>
 
             {/* 2 botton */}
-            <p className='2xl:left-[408px] 2xl:bottom-[135px] absolute w-fit bg-[#EEB10E] px-[20px] py-[15px] rounded-full text-[#FFF] font-karla text-[18px] leading-[27px]'>Worldwide Popularity</p>
+            <p className='2xl:left-[408px] xl:left-[333px] 2xl:bottom-[135px] xl:bottom-[106px] absolute w-fit bg-[#EEB10E] px-[20px] py-[15px] rounded-full text-[#FFF] font-karla text-[18px] leading-[27px]'>Worldwide Popularity</p>
 
             {/* 3 botton */}
-            <p className='2xl:left-[548px] 2xl:bottom-[215px] absolute w-fit bg-[#EEB10E] px-[20px] py-[15px] rounded-full text-[#FFF] font-karla text-[18px] leading-[27px]'>King-Sized Community</p>
+            <p className='2xl:left-[548px] xl:left-[448px] 2xl:bottom-[215px] xl:bottom-[172px] absolute w-fit bg-[#EEB10E] px-[20px] py-[15px] rounded-full text-[#FFF] font-karla text-[18px] leading-[27px]'>King-Sized Community</p>
 
             {/* 4 botton */}
-            <p className='2xl:left-[700px] 2xl:bottom-[298px] absolute w-fit bg-[#EEB10E] px-[20px] py-[15px] rounded-full text-[#FFF] font-karla text-[18px] leading-[27px]'>$1B Marketcap Milestone</p>
+            <p className='2xl:left-[700px] xl:left-[573px] 2xl:bottom-[298px] xl:bottom-[239px] absolute w-fit bg-[#EEB10E] px-[20px] py-[15px] rounded-full text-[#FFF] font-karla text-[18px] leading-[27px]'>$1B Marketcap Milestone</p>
 
             {/* 5 botton */}
-            <p className='2xl:left-[820px] 2xl:bottom-[379px] absolute w-fit bg-[#EEB10E] px-[20px] py-[15px] rounded-full text-[#FFF] font-karla text-[18px] leading-[27px]'>DougCoin Dominance</p>
+            <p className='2xl:left-[820px] xl:left-[670px] 2xl:bottom-[379px] xl:bottom-[306px] absolute w-fit bg-[#EEB10E] px-[20px] py-[15px] rounded-full text-[#FFF] font-karla text-[18px] leading-[27px]'>DougCoin Dominance</p>
 
             {/* 6 botton */}
-            <p className='2xl:left-[996px] 2xl:bottom-[459px] absolute w-fit bg-[#EEB10E] px-[20px] py-[15px] rounded-full text-[#FFF] font-karla text-[18px] leading-[27px]'>Meme Coin Takeover</p>
+            <p className='2xl:left-[996px] xl:left-[817px] 2xl:bottom-[459px] xl:bottom-[372px] absolute w-fit bg-[#EEB10E] px-[20px] py-[15px] rounded-full text-[#FFF] font-karla text-[18px] leading-[27px]'>Meme Coin Takeover</p>
 
             {/* 7 botton */}
-            <p className='2xl:left-[1136px] 2xl:bottom-[540px] absolute w-fit bg-[#EEB10E] px-[20px] py-[15px] rounded-full text-[#FFF] font-karla text-[18px] leading-[27px]'>Reign Forever</p>
+            <p className='2xl:left-[1136px] xl:left-[932px] 2xl:bottom-[540px] xl:bottom-[440px] absolute w-fit bg-[#EEB10E] px-[20px] py-[15px] rounded-full text-[#FFF] font-karla text-[18px] leading-[27px]'>Reign Forever</p>
 
           </div>
 
