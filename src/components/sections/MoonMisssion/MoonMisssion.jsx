@@ -9,7 +9,7 @@ const MoonMisssion = () => {
     <div className='xl:pt-[320px] lg:pt-[120px] md:pt-[70px] xl:mb-[190px] lg:mb-[190px] md:mb-[170px]'>
       <Container>
 
-        <div>
+        <div className='relative'>
           {/*  section title   */}
           <div>
             <p className='text-[#111] textShadow xl:text-[80px] md:text-[60px] text-[28px] font-bold leading-[96px] tracking-[1.6px] lg:mb-[25px] md:mb-[10px] mb-[-15px]'>MOON MISSION</p>
@@ -22,7 +22,29 @@ const MoonMisssion = () => {
             <div className='hidden lg:block 2xl:ml-[-20px] xl:ml-[-20px] 2xl:mt-[-700px] xl:mt-[-550px] lg:mt-[-350px]'>
               <img src={moonimageLarge} alt="image" />
             </div>
-{/* button posigition  */}
+
+            {/* botton posigition  */}
+            {/* 1 botton */}
+            <p className='2xl:left-[211px] 2xl:bottom-[50px] absolute w-fit bg-[#EEB10E] px-[20px] py-[15px] rounded-full text-[#FFF] font-karla text-[18px] leading-[27px]'>Pump to the Moon</p>
+
+            {/* 2 botton */}
+            <p className='2xl:left-[408px] 2xl:bottom-[135px] absolute w-fit bg-[#EEB10E] px-[20px] py-[15px] rounded-full text-[#FFF] font-karla text-[18px] leading-[27px]'>Worldwide Popularity</p>
+
+            {/* 3 botton */}
+            <p className='2xl:left-[548px] 2xl:bottom-[215px] absolute w-fit bg-[#EEB10E] px-[20px] py-[15px] rounded-full text-[#FFF] font-karla text-[18px] leading-[27px]'>King-Sized Community</p>
+
+            {/* 4 botton */}
+            <p className='2xl:left-[700px] 2xl:bottom-[298px] absolute w-fit bg-[#EEB10E] px-[20px] py-[15px] rounded-full text-[#FFF] font-karla text-[18px] leading-[27px]'>$1B Marketcap Milestone</p>
+
+            {/* 5 botton */}
+            <p className='2xl:left-[820px] 2xl:bottom-[379px] absolute w-fit bg-[#EEB10E] px-[20px] py-[15px] rounded-full text-[#FFF] font-karla text-[18px] leading-[27px]'>DougCoin Dominance</p>
+
+            {/* 6 botton */}
+            <p className='2xl:left-[996px] 2xl:bottom-[459px] absolute w-fit bg-[#EEB10E] px-[20px] py-[15px] rounded-full text-[#FFF] font-karla text-[18px] leading-[27px]'>Meme Coin Takeover</p>
+
+            {/* 7 botton */}
+            <p className='2xl:left-[1136px] 2xl:bottom-[540px] absolute w-fit bg-[#EEB10E] px-[20px] py-[15px] rounded-full text-[#FFF] font-karla text-[18px] leading-[27px]'>Reign Forever</p>
+
           </div>
 
           {/*  section images small  */}
