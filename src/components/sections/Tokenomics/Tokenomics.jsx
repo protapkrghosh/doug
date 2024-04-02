@@ -1,7 +1,6 @@
 import React from 'react';
 import Container from '../Container/Container';
 import tokenImg from '@/assets/tokenomics/Frame 375.png';
-import { FaRegCircle } from "react-icons/fa";
 
 const Tokenomics = () => {
   return (
@@ -15,14 +14,14 @@ const Tokenomics = () => {
             <p className='w-fit bg-[#EEB10E] mx-auto px-[30px] py-[15px] rounded-full text-[#FFF] font-karla 2xl:text-[28px] xl:text-[24px] font-medium leading-[42px]'>Max Supply: 777 trillion.</p>
           </div>
 
-          <div className='flex items-center'>
+          <div className='flex justify-evenly items-center mt-[135px]'>
             {/* image section  */}
             <div>
-              <img className='2xl:w-[80%] xl:w-[80%]' src={tokenImg} alt="" />
+              <img className='2xl:w-[90%] xl:w-[80%]' src={tokenImg} alt="" />
             </div>
 
             {/* image contain section  */}
-            <div className='mt-[135px]'>
+            <div>
 
               {/* 1 button  */}
               <div className='flex items-center gap-[10px] bg-[#EEB10E] w-fit py-[15px] px-[20px] rounded-full mb-[20px]'>
@@ -72,7 +71,7 @@ const Tokenomics = () => {
           <div className='flex gap-[40px] justify-center mt-[30px]'>
             <p className='w-fit bg-[#EEB10E] px-[30px] py-[20px] rounded-lg text-[#FFF] font-karla text-[28px] leading-[42px]'>Token Name: Doug</p>
 
-            <p className='w-fit bg-[#EEB10E] px-[30px] py-[20px] rounded-lg text-[#FFF] font-karla text-[28px] leading-[42px]'>Token Name: Doug</p>
+            <p className='w-fit bg-[#EEB10E] px-[30px] py-[20px] rounded-lg text-[#FFF] font-karla text-[28px] leading-[42px]'>Token Name: $Doug</p>
           </div>
         </div>
       </Container>
