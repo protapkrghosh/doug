@@ -23,7 +23,6 @@ const Tokenomics = () => {
 
             {/* image contain section  */}
             <div className='mt-[135px]'>
-              {/* image contain section  */}
 
               {/* 1 button  */}
               <div className='flex items-center gap-[10px] bg-[#EEB10E] w-fit py-[15px] px-[20px] rounded-full mb-[20px]'>
