@@ -12,7 +12,7 @@ const Tokenomics = () => {
           {/* title section  */}
           <div>
             <p className='text-[#111] text-center textShadow font-montserrat xl:text-[80px] lg:text-[60px] font-bold lg:leading-[96px] tracking-[1.6px] mb-[25px]'>TOKENOMICS</p>
-            <div className='flex items-center gap-4 w-fit bg-[#EEB10E] mx-auto px-[30px] py-[15px] rounded-full text-[#FFF] font-karla 2xl:text-[28px] lg:text-[24px] font-medium leading-[42px]'>
+            <div className='flex items-center gap-4 w-fit bg-[#EEB10E] mx-auto px-[30px] py-[15px] rounded-full text-[#FFF] font-karla 2xl:text-[28px] lg:text-[23px] font-medium leading-[42px]'>
               <img src={tokenTitleImg} alt="" />
               <p>Max Supply: 777 trillion.</p>
             </div>
@@ -73,9 +73,9 @@ const Tokenomics = () => {
           </div>
 
           <div className='flex gap-[40px] justify-center mt-[30px]'>
-            <p className='w-fit bg-[#EEB10E] px-[30px] py-[20px] rounded-lg text-[#FFF] font-karla text-[28px] leading-[42px]'>Token Name: Doug</p>
+            <p className='w-fit bg-[#EEB10E] xl:px-[30px] lg:px-[20px] xl:py-[20px] lg:py-[20px] rounded-lg text-[#FFF] font-karla xl:text-[28px] lg:text-[24px] leading-[42px]'>Token Name: Doug</p>
 
-            <p className='w-fit bg-[#EEB10E] px-[30px] py-[20px] rounded-lg text-[#FFF] font-karla text-[28px] leading-[42px]'>Token Symbol: <span className='uppercase'>$Doug</span></p>
+            <p className='w-fit bg-[#EEB10E] xl:px-[30px] lg:px-[20px] xl:py-[20px] lg:py-[20px] rounded-lg text-[#FFF] font-karla xl:text-[28px] lg:text-[24px] leading-[42px]'>Token Symbol: <span className='uppercase'>$Doug</span></p>
           </div>
         </div>
       </Container>
