@@ -71,12 +71,9 @@ const Tokenomics = () => {
           </div>
 
           <div className='flex gap-[40px] justify-center mt-[30px]'>
-            <div>
-              <p className='w-fit bg-[#EEB10E] px-[30px] py-[20px] rounded-lg text-[#FFF] font-karla text-[28px] leading-[42px]'>Token Name: Doug</p>
-            </div>
-            <div>
-              <p className='w-fit bg-[#EEB10E] px-[30px] py-[20px] rounded-lg text-[#FFF] font-karla text-[28px] leading-[42px]'>Token Name: Doug</p>
-            </div>
+            <p className='w-fit bg-[#EEB10E] px-[30px] py-[20px] rounded-lg text-[#FFF] font-karla text-[28px] leading-[42px]'>Token Name: Doug</p>
+
+            <p className='w-fit bg-[#EEB10E] px-[30px] py-[20px] rounded-lg text-[#FFF] font-karla text-[28px] leading-[42px]'>Token Name: Doug</p>
           </div>
         </div>
       </Container>
