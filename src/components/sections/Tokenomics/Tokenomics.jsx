@@ -27,62 +27,38 @@ const Tokenomics = () => {
 
               {/* 1 button  */}
               <div className='flex items-center gap-[10px] bg-[#EEB10E] w-fit py-[15px] px-[20px] rounded-full mb-[20px]'>
-                <div>
-                  <span><FaRegCircle /></span>
-                </div>
-                <div>
-                  <p className='text-[#111] font-karla text-[28px] leading-[42px]'>20% Airdrop</p>
-                </div>
+                <div className='h-5 w-5 bg-[#FFF] border-2 border-black rounded-full' />
+                <p className='text-[#111] font-karla text-[28px] leading-[42px]'>20% Airdrop</p>
               </div>
 
               {/* 2 button  */}
               <div className='flex items-center gap-[10px] bg-[#ED730E] w-fit py-[15px] px-[20px] rounded-full mb-[20px]'>
-                <div>
-                  <span><FaRegCircle /></span>
-                </div>
-                <div>
-                  <p className='text-[#111] font-karla text-[28px] leading-[42px]'>20% Liquidity</p>
-                </div>
+                <div className='h-5 w-5 bg-[#FFF] border-2 border-black rounded-full' />
+                <p className='text-[#111] font-karla text-[28px] leading-[42px]'>20% Liquidity</p>
               </div>
 
               {/* 3 button  */}
               <div className='flex items-center gap-[10px] bg-[#ED970E] w-fit py-[15px] px-[20px] rounded-full mb-[20px]'>
-                <div>
-                  <span><FaRegCircle /></span>
-                </div>
-                <div>
-                  <p className='text-[#111] font-karla text-[28px] leading-[42px]'>20% Community Reserve</p>
-                </div>
+                <div className='h-5 w-5 bg-[#FFF] border-2 border-black rounded-full' />
+                <p className='text-[#111] font-karla text-[28px] leading-[42px]'>20% Community Reserve</p>
               </div>
 
               {/* 4 button  */}
               <div className='flex items-center gap-[10px] bg-[#31CC20] w-fit py-[15px] px-[20px] rounded-full mb-[20px]'>
-                <div>
-                  <span><FaRegCircle /></span>
-                </div>
-                <div>
-                  <p className='text-[#111] font-karla text-[28px] leading-[42px]'>15%  Burn Mechanism</p>
-                </div>
+                <div className='h-5 w-5 bg-[#FFF] border-2 border-black rounded-full' />
+                <p className='text-[#111] font-karla text-[28px] leading-[42px]'>15%  Burn Mechanism</p>
               </div>
 
               {/* 5 button  */}
               <div className='flex items-center gap-[10px] bg-[#EDCD0E] w-fit py-[15px] px-[20px] rounded-full mb-[20px]'>
-                <div>
-                  <span><FaRegCircle /></span>
-                </div>
-                <div>
-                  <p className='text-[#111] font-karla text-[28px] leading-[42px]'>15% Marketing & Development</p>
-                </div>
+                <div className='h-5 w-5 bg-[#FFF] border-2 border-black rounded-full' />
+                <p className='text-[#111] font-karla text-[28px] leading-[42px]'>15% Marketing & Development</p>
               </div>
 
               {/* 6 button  */}
               <div className='flex items-center gap-[10px] bg-[#EDE80E] w-fit py-[15px] px-[20px] rounded-full mb-[20px]'>
-                <div>
-                  <span><FaRegCircle /></span>
-                </div>
-                <div>
-                  <p className='text-[#111] font-karla text-[28px] leading-[42px]'>10% Early Contributors</p>
-                </div>
+                <div className='h-5 w-5 bg-[#FFF] border-2 border-black rounded-full' />
+                <p className='text-[#111] font-karla text-[28px] leading-[42px]'>10% Early Contributors</p>
               </div>
 
             </div>
