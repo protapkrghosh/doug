@@ -12,15 +12,16 @@ const Tokenomics = () => {
           {/* title section  */}
           <div>
             <p className='text-[#111] text-center textShadow font-montserrat xl:text-[80px] font-bold lg:leading-[96px] tracking-[1.6px] mb-[25px]'>TOKENOMICS</p>
-            <p className='w-fit bg-[#EEB10E] mx-auto px-[30px] py-[15px] rounded-full text-[#FFF] font-karla text-[28px] font-medium leading-[42px]'>Max Supply: 777 trillion.</p>
+            <p className='w-fit bg-[#EEB10E] mx-auto px-[30px] py-[15px] rounded-full text-[#FFF] font-karla 2xl:text-[28px] xl:text-[24px] font-medium leading-[42px]'>Max Supply: 777 trillion.</p>
           </div>
 
           <div className='flex items-center'>
             {/* image section  */}
             <div>
-              <img className='2xl:w-[80%]' src={tokenImg} alt="" />
+              <img className='2xl:w-[80%] xl:w-[80%]' src={tokenImg} alt="" />
             </div>
 
+            {/* image contain section  */}
             <div className='mt-[135px]'>
               {/* image contain section  */}
 
@@ -88,6 +89,7 @@ const Tokenomics = () => {
 
           </div>
 
+          {/* bottom section  */}
           <div className='mt-[20px] text-center'>
             <p className='text-[#111] font-karla text-[28px] font-semibold leading-[42px]'>TOKEN INFO</p>
           </div>
