@@ -20,12 +20,12 @@ const Tokenomics = () => {
 
           <div className='flex justify-evenly items-center md:mt-[135px] mt-[35px]'>
             {/* image section  */}
-            <div className='xl:w-auto lg:w-[60%] md:w-[55%] w-[55%]'>
-              <img className='2xl:w-[90%] xl:w-[80%] lg:w-[80%] md:w-[80%]' src={tokenImg} alt="" />
+            <div className='xl:w-auto lg:w-[60%] md:w-[55%] w-[50%]'>
+              <img className='2xl:w-[90%] xl:w-[80%] lg:w-[80%] md:w-[80%] w-[80%]' src={tokenImg} alt="" />
             </div>
 
             {/* image contain section  */}
-            <div className='xl:w-auto lg:w-[40%] md:w-[45%]'>
+            <div className='xl:w-auto lg:w-[40%] md:w-[45%] w-[50%]'>
 
               {/* 1 button  */}
               <div className='flex items-center gap-[10px] bg-[#EEB10E] w-fit md:py-[15px] py-[10px] md:px-[20px] px-[8px] rounded-full md:mb-[20px] mb-[10px]'>
@@ -54,7 +54,8 @@ const Tokenomics = () => {
               {/* 5 button  */}
               <div className='flex items-center gap-[10px] bg-[#EDCD0E] w-fit md:py-[15px] py-[10px] md:px-[20px] px-[8px] rounded-full md:mb-[20px] mb-[10px]'>
                 <div className='md:h-5 h-4 md:w-5 w-4 bg-[#FFF] border-2 border-black rounded-full' />
-                <p className='text-[#111] font-karla xl:text-[28px] lg:text-[20px] text-[12px] leading-[42px]'>15% Marketing & Development</p>
+                <p className='block md:hidden text-[#111] font-karla xl:text-[28px] lg:text-[20px] text-[12px] leading-[42px]'>15% Marketing & Develop...</p>
+                <p className='hidden md:block text-[#111] font-karla xl:text-[28px] lg:text-[20px] text-[12px] leading-[42px]'>15% Marketing & Development</p>
               </div>
 
               {/* 6 button  */}
@@ -69,13 +70,13 @@ const Tokenomics = () => {
 
           {/* bottom section  */}
           <div className='mt-[20px] text-center'>
-            <p className='text-[#111] font-karla lg:text-[28px] md:text-[24px] font-semibold leading-[42px]'>TOKEN INFO</p>
+            <p className='text-[#111] font-karla lg:text-[28px] md:text-[24px] text-[14px] font-semibold leading-[42px]'>TOKEN INFO</p>
           </div>
 
-          <div className='flex gap-[40px] justify-center mt-[30px]'>
-            <p className='w-fit bg-[#EEB10E] xl:px-[30px] lg:px-[20px] md:px-[20px] xl:py-[20px] lg:py-[20px] md:py-[10px] rounded-lg text-[#FFF] font-karla xl:text-[28px] lg:text-[24px] md:text-[18px] leading-[42px]'>Token Name: Doug</p>
+          <div className='flex gap-[40px] justify-center md:mt-[30px] mt-[10px]'>
+            <p className='w-fit bg-[#EEB10E] xl:px-[30px] lg:px-[20px] md:px-[20px] px-[9px] xl:py-[20px] lg:py-[20px] md:py-[10px] py-[7px] rounded-lg text-[#FFF] font-karla xl:text-[28px] lg:text-[24px] md:text-[18px] text-[14px] leading-[42px]'>Token Name: Doug</p>
 
-            <p className='w-fit bg-[#EEB10E] xl:px-[30px] lg:px-[20px] md:px-[20px] xl:py-[20px] lg:py-[20px] md:py-[10px] rounded-lg text-[#FFF] font-karla xl:text-[28px] lg:text-[24px] md:text-[18px] leading-[42px]'>Token Symbol: <span className='uppercase'>$Doug</span></p>
+            <p className='w-fit bg-[#EEB10E] xl:px-[30px] lg:px-[20px] md:px-[20px] px-[9px] xl:py-[20px] lg:py-[20px] md:py-[10px] py-[7px] rounded-lg text-[#FFF] font-karla xl:text-[28px] lg:text-[24px] md:text-[18px] text-[14px] leading-[42px]'>Token Symbol: <span className='uppercase'>$Doug</span></p>
           </div>
         </div>
       </Container>
