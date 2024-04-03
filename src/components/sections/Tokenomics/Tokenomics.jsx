@@ -32,38 +32,38 @@ const Tokenomics = () => {
               {/* 1 button  */}
               <div className='flex items-center gap-[10px] bg-[#EEB10E] w-fit md:py-[15px] py-[10px] md:px-[20px] px-[8px] rounded-full md:mb-[20px] mb-[10px]'>
                 <div className='md:h-5 h-4 md:w-5 w-4 bg-[#FFF] border-2 border-black rounded-full' />
-                <p className='text-[#111] font-karla xl:text-[28px] lg:text-[20px] text-[12px] leading-[42px]'>20% Airdrop</p>
+                <p className='text-[#111] font-karla xl:text-[28px] lg:text-[20px] text-[12px] lg:leading-[42px] leading-[18px]'>20% Airdrop</p>
               </div>
 
               {/* 2 button  */}
               <div className='flex items-center gap-[10px] bg-[#ED730E] w-fit md:py-[15px] py-[10px] md:px-[20px] px-[8px] rounded-full md:mb-[20px] mb-[10px]'>
                 <div className='md:h-5 h-4 md:w-5 w-4 bg-[#FFF] border-2 border-black rounded-full' />
-                <p className='text-[#111] font-karla xl:text-[28px] lg:text-[20px] text-[12px] leading-[42px]'>20% Liquidity</p>
+                <p className='text-[#111] font-karla xl:text-[28px] lg:text-[20px] text-[12px] lg:leading-[42px] leading-[18px]'>20% Liquidity</p>
               </div>
 
               {/* 3 button  */}
               <div className='flex items-center gap-[10px] bg-[#ED970E] w-fit md:py-[15px] py-[10px] md:px-[20px] px-[8px] rounded-full md:mb-[20px] mb-[10px]'>
                 <div className='md:h-5 h-4 md:w-5 w-4 bg-[#FFF] border-2 border-black rounded-full' />
-                <p className='text-[#111] font-karla xl:text-[28px] lg:text-[20px] text-[12px] leading-[42px]'>20% Community Reserve</p>
+                <p className='text-[#111] font-karla xl:text-[28px] lg:text-[20px] text-[12px] lg:leading-[42px] leading-[18px]'>20% Community Reserve</p>
               </div>
 
               {/* 4 button  */}
               <div className='flex items-center gap-[10px] bg-[#31CC20] w-fit md:py-[15px] py-[10px] md:px-[20px] px-[8px] rounded-full md:mb-[20px] mb-[10px]'>
                 <div className='md:h-5 h-4 md:w-5 w-4 bg-[#FFF] border-2 border-black rounded-full' />
-                <p className='text-[#111] font-karla xl:text-[28px] lg:text-[20px] text-[12px] leading-[42px]'>15%  Burn Mechanism</p>
+                <p className='text-[#111] font-karla xl:text-[28px] lg:text-[20px] text-[12px] lg:leading-[42px] leading-[18px]'>15%  Burn Mechanism</p>
               </div>
 
               {/* 5 button  */}
               <div className='flex items-center gap-[10px] bg-[#EDCD0E] w-fit md:py-[15px] py-[10px] md:px-[20px] px-[8px] rounded-full md:mb-[20px] mb-[10px]'>
                 <div className='md:h-5 h-4 md:w-5 w-4 bg-[#FFF] border-2 border-black rounded-full' />
-                <p className='block md:hidden text-[#111] font-karla xl:text-[28px] lg:text-[20px] text-[12px] leading-[42px]'>15% Marketing & Develop...</p>
-                <p className='hidden md:block text-[#111] font-karla xl:text-[28px] lg:text-[20px] text-[12px] leading-[42px]'>15% Marketing & Development</p>
+                <p className='block md:hidden text-[#111] font-karla xl:text-[28px] lg:text-[20px] text-[12px] lg:leading-[42px] leading-[18px]'>15% Marketing & Develop...</p>
+                <p className='hidden md:block text-[#111] font-karla xl:text-[28px] lg:text-[20px] text-[12px] lg:leading-[42px] leading-[18px]'>15% Marketing & Development</p>
               </div>
 
               {/* 6 button  */}
               <div className='flex items-center gap-[10px] bg-[#EDE80E] w-fit md:py-[15px] py-[10px] md:px-[20px] px-[8px] rounded-full md:mb-[20px] mb-[10px]'>
                 <div className='md:h-5 h-4 md:w-5 w-4 bg-[#FFF] border-2 border-black rounded-full' />
-                <p className='text-[#111] font-karla xl:text-[28px] lg:text-[20px] text-[12px] leading-[42px]'>10% Early Contributors</p>
+                <p className='text-[#111] font-karla xl:text-[28px] lg:text-[20px] text-[12px] lg:leading-[42px] leading-[18px]'>10% Early Contributors</p>
               </div>
 
             </div>
