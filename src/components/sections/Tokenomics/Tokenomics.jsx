@@ -11,7 +11,8 @@ const Tokenomics = () => {
 
           {/* title section  */}
           <div>
-            <p className='text-[#111] text-center textShadow font-montserrat xl:text-[80px] md:text-[60px] text-[28px] font-bold lg:leading-[96px] tracking-[1.6px] md:mb-[25px] mb-[10px]'>TOKENOMICS</p>
+            <p className='hidden md:block text-[#111] text-center textShadow font-montserrat xl:text-[80px] md:text-[60px] text-[28px] font-bold lg:leading-[96px] tracking-[1.6px] md:mb-[25px] mb-[10px]'>TOKENOMICS</p>
+            <p className='block md:hidden text-[#111] text-center textShadowSm font-montserrat xl:text-[80px] md:text-[60px] text-[28px] font-bold lg:leading-[96px] tracking-[1.6px] md:mb-[25px] mb-[10px]'>TOKENOMICS</p>
             <div className='flex items-center gap-4 w-fit bg-[#EEB10E] mx-auto px-[30px] py-[15px] rounded-full text-[#FFF] font-karla 2xl:text-[28px] lg:text-[23px] md:text-[20px] text-[14px] font-medium leading-[42px]'>
               <img src={tokenTitleImg} alt="" />
               <p>Max Supply: 777 trillion.</p>
