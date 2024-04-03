@@ -2,12 +2,13 @@ import React from 'react';
 import Container from '../Container/Container';
 import tokenImg from '@/assets/tokenomics/Frame 375.png';
 import tokenTitleImg from '@/assets/tokenomics/Vector.png';
+import tokenShapImg from '@/assets/tokenomics/tokenomicsShap.png';
 
 const Tokenomics = () => {
   return (
     <div className='xl:mb-[150px]'>
       <Container>
-        <div>
+        <div className='relative'>
 
           {/* title section  */}
           <div>
@@ -67,6 +68,11 @@ const Tokenomics = () => {
 
             </div>
 
+            {/* tokenomics shape images  */}
+            <div className='hidden lg:block 2xl:w-full xl:w-[80%] lg:w-[40%] absolute 2xl:bottom-[-45px] xl:bottom-[-45px] lg:bottom-[-45px] 2xl:left-[30px] xl:left-[-10px] lg:left-[-30px]'>
+              <img src={tokenShapImg} alt="" />
+            </div>
+
           </div>
 
           {/* bottom section  */}
@@ -75,9 +81,11 @@ const Tokenomics = () => {
           </div>
 
           <div className='flex gap-[40px] justify-center md:mt-[30px] mt-[10px]'>
-            <p className='w-fit bg-[#EEB10E] xl:px-[30px] lg:px-[20px] md:px-[20px] px-[9px] xl:py-[20px] lg:py-[20px] md:py-[10px] py-[7px] rounded-lg text-[#FFF] font-karla xl:text-[28px] lg:text-[24px] md:text-[18px] text-[14px] leading-[42px]'>Token Name: Doug</p>
+            <p className='hidden md:block w-fit bg-[#EEB10E] xl:px-[30px] lg:px-[20px] md:px-[20px] px-[9px] xl:py-[20px] lg:py-[20px] md:py-[10px] py-[7px] rounded-lg text-[#FFF] font-karla xl:text-[28px] lg:text-[24px] md:text-[18px] text-[14px] leading-[42px]'>Token Name: Doug</p>
+            <p className='block md:hidden w-fit bg-[#EEB10E] xl:px-[30px] lg:px-[20px] md:px-[20px] px-[9px] xl:py-[20px] lg:py-[20px] md:py-[10px] py-[7px] rounded-lg text-[#FFF] font-karla xl:text-[28px] lg:text-[24px] md:text-[18px] text-[14px] leading-[42px] uppercase'>Token Name: Doug</p>
 
-            <p className='w-fit bg-[#EEB10E] xl:px-[30px] lg:px-[20px] md:px-[20px] px-[9px] xl:py-[20px] lg:py-[20px] md:py-[10px] py-[7px] rounded-lg text-[#FFF] font-karla xl:text-[28px] lg:text-[24px] md:text-[18px] text-[14px] leading-[42px]'>Token Symbol: <span className='uppercase'>$Doug</span></p>
+            <p className='hidden md:block w-fit bg-[#EEB10E] xl:px-[30px] lg:px-[20px] md:px-[20px] px-[9px] xl:py-[20px] lg:py-[20px] md:py-[10px] py-[7px] rounded-lg text-[#FFF] font-karla xl:text-[28px] lg:text-[24px] md:text-[18px] text-[14px] leading-[42px]'>Token Symbol: <span className='uppercase'>$Doug</span></p>
+            <p className='block md:hidden w-fit bg-[#EEB10E] xl:px-[30px] lg:px-[20px] md:px-[20px] px-[9px] xl:py-[20px] lg:py-[20px] md:py-[10px] py-[7px] rounded-lg text-[#FFF] font-karla xl:text-[28px] lg:text-[24px] md:text-[18px] text-[14px] leading-[42px] uppercase'>Token Symbol: <span className='uppercase'>$Doug</span></p>
           </div>
         </div>
       </Container>
