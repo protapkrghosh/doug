@@ -2,12 +2,13 @@ import React from 'react';
 import Container from '../Container/Container';
 import tokenImg from '@/assets/tokenomics/Frame 375.png';
 import tokenTitleImg from '@/assets/tokenomics/Vector.png';
+import tokenShapImg from '@/assets/tokenomics/tokenomicsShap.png';
 
 const Tokenomics = () => {
   return (
     <div className='xl:mb-[150px]'>
       <Container>
-        <div>
+        <div className='relative'>
 
           {/* title section  */}
           <div>
@@ -65,6 +66,11 @@ const Tokenomics = () => {
                 <p className='text-[#111] font-karla xl:text-[28px] lg:text-[20px] text-[12px] leading-[42px]'>10% Early Contributors</p>
               </div>
 
+            </div>
+
+            {/* tokenomics shape images  */}
+            <div className='hidden lg:block 2xl:w-full xl:w-[80%] lg:w-[40%] absolute 2xl:bottom-[-45px] xl:bottom-[-45px] lg:bottom-[-45px] 2xl:left-[30px] xl:left-[-10px] lg:left-[-30px]'>
+              <img src={tokenShapImg} alt="" />
             </div>
 
           </div>
