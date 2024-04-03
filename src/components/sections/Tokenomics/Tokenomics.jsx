@@ -77,15 +77,15 @@ const Tokenomics = () => {
 
           {/* bottom section  */}
           <div className='mt-[20px] text-center'>
-            <p className='text-[#111] font-karla lg:text-[28px] md:text-[24px] text-[14px] font-semibold leading-[42px]'>TOKEN INFO</p>
+            <p className='text-[#111] font-karla lg:text-[28px] md:text-[24px] text-[14px] font-semibold lg:leading-[42px] leading-[21px]'>TOKEN INFO</p>
           </div>
 
           <div className='flex gap-[40px] justify-center md:mt-[30px] mt-[10px]'>
-            <p className='hidden md:block w-fit bg-[#EEB10E] xl:px-[30px] lg:px-[20px] md:px-[20px] px-[9px] xl:py-[20px] lg:py-[20px] md:py-[10px] py-[7px] rounded-lg text-[#FFF] font-karla xl:text-[28px] lg:text-[24px] md:text-[18px] text-[14px] leading-[42px]'>Token Name: Doug</p>
-            <p className='block md:hidden w-fit bg-[#EEB10E] xl:px-[30px] lg:px-[20px] md:px-[20px] px-[9px] xl:py-[20px] lg:py-[20px] md:py-[10px] py-[7px] rounded-lg text-[#FFF] font-karla xl:text-[28px] lg:text-[24px] md:text-[18px] text-[14px] leading-[42px] uppercase'>Token Name: Doug</p>
+            <p className='hidden md:block w-fit bg-[#EEB10E] xl:px-[30px] lg:px-[20px] md:px-[20px] px-[9px] xl:py-[20px] lg:py-[20px] md:py-[10px] py-[7px] rounded-lg text-[#FFF] font-karla xl:text-[28px] lg:text-[24px] md:text-[18px] text-[14px] lg:leading-[42px] leading-[21px]'>Token Name: Doug</p>
+            <p className='block md:hidden w-fit bg-[#EEB10E] xl:px-[30px] lg:px-[20px] md:px-[20px] px-[9px] xl:py-[20px] lg:py-[20px] md:py-[10px] py-[7px] rounded-lg text-[#FFF] font-karla xl:text-[28px] lg:text-[24px] md:text-[18px] text-[14px] lg:leading-[42px] leading-[21px] uppercase'>Token Name: Doug</p>
 
-            <p className='hidden md:block w-fit bg-[#EEB10E] xl:px-[30px] lg:px-[20px] md:px-[20px] px-[9px] xl:py-[20px] lg:py-[20px] md:py-[10px] py-[7px] rounded-lg text-[#FFF] font-karla xl:text-[28px] lg:text-[24px] md:text-[18px] text-[14px] leading-[42px]'>Token Symbol: <span className='uppercase'>$Doug</span></p>
-            <p className='block md:hidden w-fit bg-[#EEB10E] xl:px-[30px] lg:px-[20px] md:px-[20px] px-[9px] xl:py-[20px] lg:py-[20px] md:py-[10px] py-[7px] rounded-lg text-[#FFF] font-karla xl:text-[28px] lg:text-[24px] md:text-[18px] text-[14px] leading-[42px] uppercase'>Token Symbol: <span className='uppercase'>$Doug</span></p>
+            <p className='hidden md:block w-fit bg-[#EEB10E] xl:px-[30px] lg:px-[20px] md:px-[20px] px-[9px] xl:py-[20px] lg:py-[20px] md:py-[10px] py-[7px] rounded-lg text-[#FFF] font-karla xl:text-[28px] lg:text-[24px] md:text-[18px] text-[14px] lg:leading-[42px] leading-[21px]'>Token Symbol: <span className='uppercase'>$Doug</span></p>
+            <p className='block md:hidden w-fit bg-[#EEB10E] xl:px-[30px] lg:px-[20px] md:px-[20px] px-[9px] xl:py-[20px] lg:py-[20px] md:py-[10px] py-[7px] rounded-lg text-[#FFF] font-karla xl:text-[28px] lg:text-[24px] md:text-[18px] text-[14px] lg:leading-[42px] leading-[21px] uppercase'>Token Symbol: <span className='uppercase'>$Doug</span></p>
           </div>
         </div>
       </Container>
