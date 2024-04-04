@@ -56,7 +56,7 @@ const Tokenomics = () => {
               {/* 5 button  */}
               <div className='flex items-center gap-[10px] bg-[#EDCD0E] w-fit md:py-[15px] py-[10px] md:px-[20px] px-[8px] rounded-full md:mb-[20px] mb-[10px]'>
                 <div className='md:h-5 h-4 md:w-5 w-4 bg-[#FFF] border-2 border-black rounded-full' />
-                <p className='block md:hidden text-[#111] font-karla xl:text-[28px] lg:text-[20px] text-[12px] lg:leading-[42px] leading-[18px]'>15% Marketing & Develop...</p>
+                <p className='block md:hidden text-[#111] font-karla xl:text-[28px] lg:text-[20px] text-[12px] lg:leading-[42px] leading-[18px]'>15% Marketing & Develop....</p>
                 <p className='hidden md:block text-[#111] font-karla xl:text-[28px] lg:text-[20px] text-[12px] lg:leading-[42px] leading-[18px]'>15% Marketing & Development</p>
               </div>
 
