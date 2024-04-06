@@ -29,6 +29,7 @@ const JoinTheRevolution = () => {
           {/* contant section  */}
           <div className='lg:w-1/2'>
             <div className='relative'>
+              <p className='text-[#080808] font-karla lg:text-[24px] text-[14px] lg:leading-[36px] leading-[21px] lg:mb-[15px] mb-[10px]'>Buy, HODL, and Vibe with Doug.</p>
               <h1 className='text-[#111] textShadow font-montserrat xl:text-[80px] lg:text-[50px] md:text-[54px] text-[26px] font-bold xl:leading-[96px] lg:leading-[75px] tracking-[1.6px] mb-[36px] hidden md:block'>JOIN THE REVOLUTION</h1>
 
               <h1 className='text-[#111] textShadowSm font-montserrat xl:text-[80px] lg:text-[50px] md:text-[54px] text-[26px] font-bold xl:leading-[96px] lg:leading-[75px] tracking-[1.6px] mb-[36px] block md:hidden'>JOIN THE REVOLUTION</h1>
