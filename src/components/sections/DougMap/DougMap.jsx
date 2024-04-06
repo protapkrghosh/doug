@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 
 const DougMap = () => {
   return (
-    <div className=''>
+    <div id='roadmap'>
       {/***************** Small device *****************/}
       <div className='block md:hidden'>
         <div className='text-center'>
@@ -90,7 +90,7 @@ const DougMap = () => {
         </div>
       </div>
 
-      
+
 
       {/***************** Medium & Large device *****************/}
       <div className='hidden md:block'>

@@ -9,7 +9,7 @@ import arrowUpIcon from '@/assets/footer/arrowUpIcon.svg';
 
 const Footer = () => {
   return (
-    <div className='mt-20 mb-7 md:my-[100px] lg:my-[145px]'>
+    <div className='mt-20 mb-7 md:my-[100px] lg:my-[145px]' id='whitepaper'>
       <Container>
         <div className='text-[13px] md:text-[18px] lg:text-[20px] text-[#333131] text-center font-karla font-medium'>
           <div className='flex justify-center relative'>
@@ -21,7 +21,7 @@ const Footer = () => {
             {/* Content */}
             <div>
               <div className='flex justify-center'>
-                <img src={logoImg} alt="Image" className='w-[130px] md:w-auto'/>
+                <img src={logoImg} alt="Image" className='w-[130px] md:w-auto' />
               </div>
               <Button className="text-[20px] text-white font-karla font-normal my-5 md:my-7 px-7">GET SOME $DOUG</Button>
 
