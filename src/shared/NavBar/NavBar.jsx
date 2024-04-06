@@ -44,11 +44,11 @@ const NavBar = () => {
               </li>
 
               <li>
-                <Link to="about" smooth={true} offset={-90} duration={600} className={`text-[18px] font-semibold cursor-pointer ${activeLink === "about" ? 'text-[#EEB10E]' : 'text-[#111] hover:text-[#EEB10E] duration-200'}`} onClick={() => setActiveLink("about")}>About</Link>
+                <Link to="about" smooth={true} offset={-100} duration={600} className={`text-[18px] font-semibold cursor-pointer ${activeLink === "about" ? 'text-[#EEB10E]' : 'text-[#111] hover:text-[#EEB10E] duration-200'}`} onClick={() => setActiveLink("about")}>About</Link>
               </li>
 
               <li>
-                <Link to="tokenomics" smooth={true} offset={-60} duration={600} className={`text-[18px] font-semibold cursor-pointer ${activeLink === "tokenomics" ? 'text-[#EEB10E]' : 'text-[#111] hover:text-[#EEB10E] duration-200'}`} onClick={() => setActiveLink("tokenomics")}>Tokenomics</Link>
+                <Link to="tokenomics" smooth={true} offset={-80} duration={600} className={`text-[18px] font-semibold cursor-pointer ${activeLink === "tokenomics" ? 'text-[#EEB10E]' : 'text-[#111] hover:text-[#EEB10E] duration-200'}`} onClick={() => setActiveLink("tokenomics")}>Tokenomics</Link>
               </li>
 
               <li>
