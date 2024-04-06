@@ -25,7 +25,7 @@ const Banner = () => {
   };
 
   return (
-    <div className='mt-10 mb-6 md:mb-[75px]'>
+    <div className='mt-10 mb-6 md:mb-[75px]' id='home'>
       <Container>
         <div className='md:flex justify-between items-center'>
           <div className='md:w-1/2'>

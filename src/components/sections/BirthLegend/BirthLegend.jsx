@@ -4,7 +4,7 @@ import Container from '../Container/Container';
 
 const BirthLegend = () => {
   return (
-    <div className='overflow-hidden mt-14 md:mt-[175px] lg:mb-[75px] lg:pb-16 xl:pb-0'>
+    <div className='overflow-hidden mt-14 md:mt-[175px] lg:mb-[75px] lg:pb-16 xl:pb-0' id='about'>
       <Container>
         <h1 className='text-[#111] text-[28px] md:text-[60px] xl:text-[75px] text-center font-montserrat font-bold textShadow mb-16 hidden md:block'>BIRTH OF A LEGEND</h1>
 
