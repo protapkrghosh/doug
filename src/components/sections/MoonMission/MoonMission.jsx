@@ -6,7 +6,7 @@ import moonimageSmall from '@/assets/moonMisson/Group 237835.png';
 
 const MoonMisssion = () => {
   return (
-    <div className='2xl:pt-[300px] xl:pt-[200px] lg:pt-[90px] md:pt-[70px] xl:mb-[190px] lg:mb-[190px] md:mb-[170px] mb-[90px]'>
+    <div className='2xl:pt-[150px] xl:pt-[180px] lg:pt-[80px] md:pt-[70px] xl:mb-[190px] lg:mb-[190px] md:mb-[170px] mb-[90px]'>
       <Container>
 
         <div className='relative'>
