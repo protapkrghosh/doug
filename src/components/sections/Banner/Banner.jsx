@@ -38,7 +38,7 @@ const Banner = () => {
             <p className='text-[#333131] xl:text-[20px] text-center md:text-start font-karla font-normal'>Doug's taking over! Adios Myro, Doug’s in town. Pepe who? Out with the old, in with Doug. Don't miss the boat, folks!</p>
 
             <div className='flex justify-center md:justify-start mt-10 mb-9'>
-              <Button className="uppercase px-6">Get some $doug</Button>
+              <Button className="bg-[#EEB10E] hover:bg-[#c9a84d] text-[#fff] 2xl:text-[20px] font-karla px-6 2xl:px-7 py-[15px] rounded-[30px] uppercase duration-200">GET SOME $DOUG</Button>
             </div>
 
             {/* Copied text */}
