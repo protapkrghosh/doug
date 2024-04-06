@@ -6,7 +6,7 @@ import tokenShapImg from '@/assets/tokenomics/tokenomicsShap.png';
 
 const Tokenomics = () => {
   return (
-    <div className='xl:mb-[150px]'>
+    <div className='xl:mb-[150px]' id='tokenomics'>
       <Container>
         <div className='relative'>
 

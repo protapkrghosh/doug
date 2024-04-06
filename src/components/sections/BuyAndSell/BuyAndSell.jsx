@@ -20,7 +20,7 @@ const BuyAndSell = () => {
 
               <p className='text-[13px] lg:text-[20px] md:mt-[25px] mt-[10px] md:mb-[50px] mb-[24px] text-[#333131] font-karla font-medium md:leading-[30px] 2xl:max-w-[688px] xl:w-[665px]'>Doug’s itsy-bitsy fee can potentially elevate the investment experience and outcomes. With redistribution to liquidity, marketing, and burning, the aim is to bolster a more robust and sustainable ecosystem for $DOUG meme coin buyers.</p>
 
-              <Button className="uppercase px-6">Get some $doug</Button>
+              <Button className="bg-[#EEB10E] hover:bg-[#c9a84d] text-[#fff] 2xl:text-[20px] font-karla px-6 2xl:px-7 py-[15px] rounded-[30px] uppercase duration-200">GET SOME $DOUG</Button>
 
               <div className='hidden lg:block 2xl:w-auto xl:w-[280px] lg:w-[180px] lg:absolute 2xl:-bottom-12 xl:-bottom-12 lg:bottom-10 2xl:left-[265px] xl:left-[265px] lg:left-[205px]'>
                 <img src={buyAndSellDougIcon} alt="Image" />
