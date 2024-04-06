@@ -17,7 +17,7 @@ const MoonMisssion = () => {
             <p className='text-[#111] textShadowSm xl:text-[80px] md:text-[60px] text-[28px] text-center font-bold leading-[96px] tracking-[1.6px] lg:mb-[25px] md:mb-[10px] mb-[-23px] block md:hidden'>MOON MISSION</p>
 
             <p className='text-[#333131] md:text-[24px] text-[12px] text-center md:text-start font-karla font-medium leading-[36px]'>To Infinity and Beyond!</p>
-            <img className='hidden lg:block 2xl:w-[480px] xl:w-[340px] lg:w-[270px] 2xl:ml-1 xl:ml-4 lg:ml-[26px]' src={moonimageIcon} alt="image" />
+            <img className='hidden lg:block 2xl:w-[490px] xl:w-[340px] lg:w-[270px] 2xl:ml-1 xl:ml-4 lg:ml-[26px]' src={moonimageIcon} alt="image" />
           </div>
 
           <div>
