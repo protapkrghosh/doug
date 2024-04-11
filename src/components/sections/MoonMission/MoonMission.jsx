@@ -3,6 +3,7 @@ import Container from '../Container/Container';
 import moonimageIcon from '@/assets/moonMisson/Group.png';
 import moonimageLarge from '@/assets/moonMisson/Group 190.png';
 import moonimageSmall from '@/assets/moonMisson/Group 237835.png';
+import AOS from 'aos';
 
 const MoonMisssion = () => {
   return (
