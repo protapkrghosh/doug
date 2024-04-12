@@ -39,25 +39,32 @@ const MoonMisssion = () => {
             <div className='hidden lg:block'>
               {/* botton posigition  */}
               {/* Pump to the Moon */}
-              <p className='2xl:left-[211px] xl:left-[167px] lg:left-[142px] md:left-[80px] left-[59px] 2xl:bottom-[50px] xl:bottom-[37px] lg:bottom-[32px] md:bottom-[89px] bottom-[59px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] md:px-5 px-2 2xl:py-[15px] xl:py-[12px] lg:py-[5px] md:py-2 py-1 rounded-full text-[#FFF] font-karla text-[13px] md:text-[16px] xl:text-[18px] lg:text-[12px] leading-[27px] rotate-[10deg] lg:rotate-0'>Pump to the Moon</p>
+              <p className='2xl:left-[211px] xl:left-[167px] lg:left-[142px] md:left-[80px] left-[59px] 2xl:bottom-[50px] xl:bottom-[37px] lg:bottom-[32px] md:bottom-[89px] bottom-[59px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] md:px-5 px-2 2xl:py-[15px] xl:py-[12px] lg:py-[5px] md:py-2 py-1 rounded-full text-[#FFF] font-karla text-[13px] md:text-[16px] xl:text-[18px] lg:text-[12px] leading-[27px] rotate-[10deg] lg:rotate-0' data-aos="fade-up"
+                data-aos-duration="900">Pump to the Moon</p>
 
               {/* Worldwide Popularity */}
-              <p className='2xl:left-[408px] xl:left-[325px] lg:left-[265px] md:left-[135px] left-[93px] 2xl:bottom-[135px] xl:bottom-[106px] lg:bottom-[82px] md:bottom-[143px] bottom-[96px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] md:px-5 px-2 2xl:py-[15px] xl:py-[12px] lg:py-[5px] md:py-2 py-1 rounded-full text-[#FFF] font-karla text-[13px] md:text-[16px] xl:text-[18px] lg:text-[12px] leading-[27px] rotate-[10deg] lg:rotate-0'>Worldwide Popularity</p>
+              <p className='2xl:left-[408px] xl:left-[325px] lg:left-[265px] md:left-[135px] left-[93px] 2xl:bottom-[135px] xl:bottom-[106px] lg:bottom-[82px] md:bottom-[143px] bottom-[96px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] md:px-5 px-2 2xl:py-[15px] xl:py-[12px] lg:py-[5px] md:py-2 py-1 rounded-full text-[#FFF] font-karla text-[13px] md:text-[16px] xl:text-[18px] lg:text-[12px] leading-[27px] rotate-[10deg] lg:rotate-0' data-aos="fade-up"
+                data-aos-duration="800">Worldwide Popularity</p>
 
               {/* King-Sized */}
-              <p className='2xl:left-[548px] xl:left-[440px] lg:left-[350px] md:left-[163px] left-[115px] 2xl:bottom-[215px] xl:bottom-[172px] lg:bottom-[132px] md:bottom-[203px] bottom-[138px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] md:px-5 px-2 2xl:py-[15px] xl:py-[12px] lg:py-[5px] md:py-2 py-1 rounded-full text-[#FFF] font-karla text-[13px] md:text-[16px] xl:text-[18px] lg:text-[12px] leading-[27px] rotate-[10deg] lg:rotate-0'>King-Sized Community</p>
+              <p className='2xl:left-[548px] xl:left-[440px] lg:left-[350px] md:left-[163px] left-[115px] 2xl:bottom-[215px] xl:bottom-[172px] lg:bottom-[132px] md:bottom-[203px] bottom-[138px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] md:px-5 px-2 2xl:py-[15px] xl:py-[12px] lg:py-[5px] md:py-2 py-1 rounded-full text-[#FFF] font-karla text-[13px] md:text-[16px] xl:text-[18px] lg:text-[12px] leading-[27px] rotate-[10deg] lg:rotate-0' data-aos="fade-up"
+                data-aos-duration="700">King-Sized Community</p>
 
               {/* Marketcap Milestone */}
-              <p className='2xl:left-[700px] xl:left-[563px] lg:left-[443px] md:left-[210px] left-[145px] 2xl:bottom-[298px] xl:bottom-[239px] lg:bottom-[182px] md:bottom-[260px] bottom-[179px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] md:px-5 px-2 2xl:py-[15px] xl:py-[12px] lg:py-[5px] md:py-2 py-1 rounded-full text-[#FFF] font-karla text-[13px] md:text-[16px] xl:text-[18px] lg:text-[12px] leading-[27px] rotate-[10deg] lg:rotate-0'>$1B Marketcap Milestone</p>
+              <p className='2xl:left-[700px] xl:left-[563px] lg:left-[443px] md:left-[210px] left-[145px] 2xl:bottom-[298px] xl:bottom-[239px] lg:bottom-[182px] md:bottom-[260px] bottom-[179px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] md:px-5 px-2 2xl:py-[15px] xl:py-[12px] lg:py-[5px] md:py-2 py-1 rounded-full text-[#FFF] font-karla text-[13px] md:text-[16px] xl:text-[18px] lg:text-[12px] leading-[27px] rotate-[10deg] lg:rotate-0' data-aos="fade-up"
+                data-aos-duration="600">$1B Marketcap Milestone</p>
 
               {/* DougCoin Dominance */}
-              <p className='2xl:left-[820px] xl:left-[660px] lg:left-[510px] md:left-[243px] left-[169px] 2xl:bottom-[379px] xl:bottom-[306px] lg:bottom-[233px] md:bottom-[323px] bottom-[222px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] md:px-5 px-2 2xl:py-[15px] xl:py-[12px] lg:py-[5px] md:py-2 py-1 rounded-full text-[#FFF] font-karla text-[13px] md:text-[16px] xl:text-[18px] lg:text-[12px] leading-[27px] rotate-[10deg] lg:rotate-0'>DougCoin Dominance</p>
+              <p className='2xl:left-[820px] xl:left-[660px] lg:left-[510px] md:left-[243px] left-[169px] 2xl:bottom-[379px] xl:bottom-[306px] lg:bottom-[233px] md:bottom-[323px] bottom-[222px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] md:px-5 px-2 2xl:py-[15px] xl:py-[12px] lg:py-[5px] md:py-2 py-1 rounded-full text-[#FFF] font-karla text-[13px] md:text-[16px] xl:text-[18px] lg:text-[12px] leading-[27px] rotate-[10deg] lg:rotate-0' data-aos="fade-up"
+                data-aos-duration="500">DougCoin Dominance</p>
 
               {/* Meme Coin Takeover */}
-              <p className='2xl:left-[996px] xl:left-[800px] lg:left-[625px] md:left-[283px] left-[200px] 2xl:bottom-[459px] xl:bottom-[372px] lg:bottom-[284px] md:bottom-[382px] bottom-[263px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] md:px-5 px-2 2xl:py-[15px] xl:py-[12px] lg:py-[5px] md:py-2 py-1 rounded-full text-[#FFF] font-karla text-[13px] md:text-[16px] xl:text-[18px] lg:text-[12px] leading-[27px] rotate-[10deg] lg:rotate-0'>Meme Coin Takeover</p>
+              <p className='2xl:left-[996px] xl:left-[800px] lg:left-[625px] md:left-[283px] left-[200px] 2xl:bottom-[459px] xl:bottom-[372px] lg:bottom-[284px] md:bottom-[382px] bottom-[263px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] md:px-5 px-2 2xl:py-[15px] xl:py-[12px] lg:py-[5px] md:py-2 py-1 rounded-full text-[#FFF] font-karla text-[13px] md:text-[16px] xl:text-[18px] lg:text-[12px] leading-[27px] rotate-[10deg] lg:rotate-0' data-aos="fade-up"
+                data-aos-duration="400">Meme Coin Takeover</p>
 
               {/* Reign Forever */}
-              <p className='2xl:left-[1136px] xl:left-[917px] lg:left-[713px] md:left-[325px] left-[228px] 2xl:bottom-[540px] xl:bottom-[440px] lg:bottom-[335px] md:bottom-[445px] bottom-[308px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] md:px-5 px-2 2xl:py-[15px] xl:py-[12px] lg:py-[5px] md:py-2 py-1 rounded-full text-[#FFF] font-karla text-[13px] md:text-[16px] xl:text-[18px] lg:text-[12px] leading-[27px] rotate-[10deg] lg:rotate-0'>Reign Forever</p>
+              <p className='2xl:left-[1136px] xl:left-[917px] lg:left-[713px] md:left-[325px] left-[228px] 2xl:bottom-[540px] xl:bottom-[440px] lg:bottom-[335px] md:bottom-[445px] bottom-[308px] absolute w-fit bg-[#EEB10E] xl:px-[20px] lg:px-[10px] md:px-5 px-2 2xl:py-[15px] xl:py-[12px] lg:py-[5px] md:py-2 py-1 rounded-full text-[#FFF] font-karla text-[13px] md:text-[16px] xl:text-[18px] lg:text-[12px] leading-[27px] rotate-[10deg] lg:rotate-0' data-aos="fade-up"
+                data-aos-duration="300">Reign Forever</p>
             </div>
 
             {/* small device */}
