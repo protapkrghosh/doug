@@ -65,7 +65,7 @@ const MoonMisssion = () => {
 
 
           {/*  section text content  */}
-          <div className='flex float-end mx-auto 2xl:mt-[-100px] xl:mt-[-80px] lg:mt-14'>
+          <div className='flex float-end mx-auto 2xl:mt-[-120px] xl:mt-[-95px] lg:mt-14'>
             <p className='xl:w-[664px] text-center md:text-start text-[#333131] md:text-[18px] lg:text-[20px] text-[14px] font-karla font-medium md:leading-[30px]'>Doug’s here to make crypto fun, accessible, and profitable for everyone, from the seasoned trader to the curious snewcomer. Get Doug now, or risk being left behind.</p>
           </div>
         </div>
