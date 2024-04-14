@@ -47,7 +47,6 @@ const HowToBuy = () => {
                 {/* Small & medium device line */}
                 <div className='block 2xl:hidden'>
                   <img src={lineImg} alt="Image" className='absolute left-[14px] md:left-[17px] top-[43px] md:top-[50px] w-3 lg:w-4 h-[120px] md:h-[110px] lg:h-[135px]' />
-                  <img src={lineImg} alt="Image" className='absolute left-[14px] md:left-[17px] top-[200px] lg:top-[229px] w-3 md:w-4 h-[115px] md:h-[80px] lg:h-[125px] xl:h-[100px]' />
                 </div>
               </div>
 
