@@ -23,6 +23,15 @@
   backdrop-filter: blur(5px);
 }
 
+/* How to Buy  */
+.howToBuySmall {
+  position: absolute;
+  left: 14px;
+  top: 15px;
+  height: 120px;
+  width: 3px;
+}
+
 /* Footer scroll icon */
 .scroll-to-top {
   width: 50px !important;
@@ -102,6 +111,7 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
