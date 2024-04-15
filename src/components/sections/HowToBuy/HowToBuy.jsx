@@ -26,7 +26,7 @@ const HowToBuy = () => {
   };
 
   return (
-    <div className='2xl:mt-[150px] mt-[50px] pb-[75px] 2xl:pb-10'>
+    <div className='2xl:mt-[150px] lg:mt-[100px] md:mt-[60px] mt-[50px] pb-[75px] 2xl:pb-10'>
       <Container>
         <p className='text-[#090909] text-center font-karla lg:text-[24px] text-[14px] font-medium lg:leading-[36px] leading-[21px] lg: mb-[15px]'>Exclusively on Solana</p>
         <h1 className='text-[#111] text-[28px] md:text-[60px] xl:text-[80px] md:text-center font-montserrat font-bold textShadow mb-6 md:mb-16 hidden md:block'>HOW TO BUY</h1>
