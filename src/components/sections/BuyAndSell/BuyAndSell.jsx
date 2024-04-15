@@ -14,7 +14,7 @@ const BuyAndSell = () => {
           <div className='xl:w-3/5 lg:w-1/2'>
 
             <div>
-              <p className='2xl:text-[80px] xl:text-[67px] lg:text-[45px] md:text-[60px] text-[28px] text-[#111] textShadow font-montserrat font-bold leading-[96px] xl:tracking-[1.6px] hidden md:block'>1% BUY & SELL FEE</p>
+              <p className='2xl:text-[80px] xl:text-[64px] lg:text-[45px] md:text-[60px] text-[28px] text-[#111] textShadow font-montserrat font-bold leading-[96px] xl:tracking-[1.6px] hidden md:block'>1% BUY & SELL FEE</p>
 
               <p className='2xl:text-[80px] xl:text-[67px] lg:text-[45px] md:text-[60px] text-[28px] text-[#111] textShadowSm font-montserrat font-bold leading-[96px] xl:tracking-[1.6px] block md:hidden -mb-6'>1% BUY & SELL FEE</p>
 
