@@ -46,8 +46,8 @@ const HowToBuy = () => {
 
                 {/* Small & medium device line */}
                 <div className='block 2xl:hidden'>
-                  <img src={lineImg} alt="Image" className='absolute xl:left-[16px] md:left-[17px] left-[11px] xl:top-[43px] lg:top-[47px] md:top-[50px] top-[43px] xl:w-4 lg:w-4 md:w-[13px] xl:h-[115px] lg:h-[135px] md:h-[109px] h-[120px]' />
-                  <img src={lineImg} alt="Image" className='absolute xl:left-[16px] md:left-[17px] left-[11px] xl:top-[203px] lg:top-[226px] md:top-[200px] top-[200px] xl:w-4 lg:w-4 md:w-[13px] xl:h-[100px] lg:h-[125px] md:h-[78px] h-[114px]' />
+                  <img src={lineImg} alt="Image" className='absolute xl:left-[16px] md:left-[17px] left-[11px] xl:top-[43px] lg:top-[47px] md:top-[50px] top-[43px] xl:w-4 lg:w-4 md:w-[13px] 2xl:h-[115px] xl:h-[140px] lg:h-[135px] md:h-[109px] h-[120px]' />
+                  <img src={lineImg} alt="Image" className='absolute xl:left-[16px] md:left-[17px] left-[11px] 2xl:top-[203px] xl:top-[228px] lg:top-[226px] md:top-[200px] top-[200px] xl:w-4 lg:w-4 md:w-[13px] 2xl:h-[100px] xl:h-[100px] lg:h-[125px] md:h-[78px] h-[114px]' />
                 </div>
               </div>
 
