@@ -6,7 +6,7 @@ import buyAndSellDougIcon from '@/assets/buySelll/627bd88f2d30058d7aade208_svgex
 
 const BuyAndSell = () => {
   return (
-    <div className='my-[75px]'>
+    <div className='lg:my-[150px] my-[75px]'>
       <Container>
         <div className='lg:flex justify-center items-center relative'>
 
