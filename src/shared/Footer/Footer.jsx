@@ -28,7 +28,7 @@ const Footer = () => {
               <p>Copyright {new Date().getFullYear()}. The $Doug Project. All Rights Reserved.</p>
 
               <div className="flex justify-center items-center space-x-4 md:space-x-8 my-4 md:my-7">
-                <a href="#" className="bg-[#eeb10e] hover:bg-[#c9a84d] p-[15px] 2xl:p-6 rounded-full group duration-300">
+                <a href="https://twitter.com/nobrainflip" target='_blank' className="bg-[#eeb10e] hover:bg-[#c9a84d] p-[15px] 2xl:p-6 rounded-full group duration-300">
                   <FaXTwitter className="text-[30px] 2xl:text-[40px] text-[#fff] group-hover:scale-110 duration-300" />
                 </a>
 
